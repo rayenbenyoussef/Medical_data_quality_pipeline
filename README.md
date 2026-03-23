@@ -55,6 +55,3 @@ medical-data-quality-pipeline/
 ## 📌 Status
 
 🚧 Project planned — implementation in progress.
-
-> This README reflects a combined Python + SPSS Modeler project, ready to demonstrate professional-level data quality skills in healthcare.
-
