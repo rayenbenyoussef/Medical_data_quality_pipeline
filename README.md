@@ -1,12 +1,12 @@
 # 🏥 Medical Data Quality Pipeline
 
-A project idea to showcase my experience with medical datasets. This pipeline will demonstrate cleaning, validation, and profiling of real-world healthcare data when implemented.
+A project to showcase my experience with medical datasets, including cleaning, validation, and profiling using Python and IBM SPSS Modeler.
 
 ---
 
 ## 🚀 Overview
 
-The goal of this project is to build a structured ETL-style pipeline to handle messy medical data, making it analysis-ready for future analytics or machine learning projects.
+This project demonstrates an ETL-style pipeline to handle messy medical data, making it analysis-ready for analytics or machine learning projects. The workflow combines Python scripts and SPSS Modeler for advanced data processing.
 
 ---
 
@@ -15,6 +15,7 @@ The goal of this project is to build a structured ETL-style pipeline to handle m
 - Data cleaning: handle missing values, duplicates, and inconsistent formats.
 - Data validation: check medical thresholds and timestamp consistency.
 - Data profiling: generate summary statistics and visualizations.
+- SPSS Modeler workflow for automated data transformations and reporting.
 - Modular Python scripts for scalability.
 
 ---
@@ -23,14 +24,17 @@ The goal of this project is to build a structured ETL-style pipeline to handle m
 
 ```
 medical-data-quality-pipeline/
-├── data/raw/         # Original medical datasets (e.g., MIMIC-IV-ED Demo)
-├── data/processed/   # Cleaned and validated datasets
+├── data/raw/             # Original medical datasets (e.g., MIMIC-IV-ED Demo)
+├── data/processed/       # Cleaned and validated datasets
 ├── src/
 │   ├── cleaning.py
 │   ├── validation.py
 │   └── profiling.py
 ├── notebooks/demo_analysis.ipynb
-├── reports/combined_report.pdf
+├── spss_workflow/        # IBM SPSS Modeler workflow & reports
+│   ├── workflow.str
+│   └── report.pdf
+├── reports/              # Additional generated reports
 ├── config/validation_rules.json
 ├── requirements.txt
 └── README.md
@@ -41,14 +45,16 @@ medical-data-quality-pipeline/
 ## 🔧 Skills to Demonstrate
 
 - Python, Pandas, NumPy
+- IBM SPSS Modeler workflow design
 - Data cleaning, validation, and profiling
-- Handling real-world hospital datasets
-- Designing a modular pipeline for scalability
+- Handling messy real-world hospital datasets
+- Modular pipeline design for scalability
 
 ---
 
 ## 📌 Status
 
-🚧 Project planned — implementation not started yet.
+🚧 Project planned — implementation in progress.
 
-> This README serves as a blueprint for a professional medical data quality project, ready to be developed and added to a portfolio.
+> This README reflects a combined Python + SPSS Modeler project, ready to demonstrate professional-level data quality skills in healthcare.
+
