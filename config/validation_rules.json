@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "edstays": {
+            "arrival_transport": {
+                "allowed_values": [1, 2, 3, 4]
+            },
+            "gender": {
+                "allowed_values": [1, 2]
+            },
+            "race": {
+                "allowed_values": [1, 2, 3, 4, 5, 6, 7]
+            },
+            "disposition": {
+                "allowed_values": [1, 2, 3, 4, 5]
+            }
+        },
+        "triage": {
+            "temperature": {
+                "min": 10,
+                "max": 47
+            }
+        }
+    }
+}
