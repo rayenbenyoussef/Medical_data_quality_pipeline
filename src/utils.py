@@ -11,3 +11,9 @@ def plotBarNulls(df, tit):
     xticks(rotation=45)
     ylabel('frequency',fontsize=12)
     show()
+
+def fToC(x):
+    return (x-32)*5/9
+
+def cToF(x):
+    return x*(9/5)+32

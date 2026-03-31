@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from utils import plotBarNulls
+from utils import plotBarNulls, fToC,cToF
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -97,7 +97,7 @@ print("=========================================================================
 
 df_triage = pd.read_csv(os.path.join(BASE_DIR,'data','raw','triage.csv'))
 
-df_triage['temperature']=(df_triage['temperature'] - 32) * 5/9
+df_triage['temperature']=df_triage['temperature'].apply(fToC))
 df_triage['temperature']=df_triage['temperature'].apply(lambda x: x if 10 <= x <= 47 else None)
 print(df_triage['temperature'].describe())
 print("=========================================================================")
@@ -196,6 +196,61 @@ df_vitalsign = pd.read_csv(os.path.join(BASE_DIR,'data','raw','vitalsign.csv'))
 df_diagnosis = pd.read_csv(os.path.join(BASE_DIR,'data','raw','diagnosis.csv'))
 df_medrecon = pd.read_csv(os.path.join(BASE_DIR,'data','raw','medrecon.csv'))
 df_pyxis = pd.read_csv(os.path.join(BASE_DIR,'data','raw','pyxis.csv'))
+
+timeRgEx=r'^\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}$'
+df_correcttime=df_vitalsign['charttime'].astype(str).str.match(timeRgEx)
+print(str(df_correcttime.sum())+" / " +str(df_vitalsign.shape[0])+" in charttime match the datetime format")
+
+df_vitalsign['temperature']=df_vitalsign['temperature'].apply(fToC).apply(lambda x : x if 10<=x<=47 else None)
+print(df_vitalsign['temperature'].describe())
+print("=========================================================================")
+
+print(df_vitalsign['heartrate'].describe())
+print("=========================================================================")
+
+print(df_vitalsign['resprate'].describe())
+print("=========================================================================")
+
+df_vitalsign['o2sat']=df_vitalsign['o2sat'].apply(lambda x : x if 55<=x<=100 else None)
+print(df_vitalsign['o2sat'].describe())
+print("=========================================================================")
+
+print(df_vitalsign['sbp'].describe())
+print("=========================================================================")
+
+print(df_vitalsign['dbp'].describe())
+print("=========================================================================")
+
+
+df_rhythm=[
+    (1, 'Sinus Tachycardia'),
+    (2, 'Atrial Fibrillation'),
+    (3, 'Sinus Rhythm'),
+    (4, 'Paced Rhythm'),
+    (5, 'Sinus Bradycardia')
+]
+
+df_rhythm=pd.DataFrame(df_rhythm, columns=['Code', 'Rhythm'])
+df_rhythm.to_csv(os.path.join(BASE_DIR,"data","processed","rhythm_mapping.csv"), index=False)
+
+df_vitalsign['rhythm']=df_vitalsign['rhythm'].map({'Sinus Tachycardia':1,
+                                                   'Atrial Fibrillation':2,
+                                                    'Sinus Rhythm':3,
+                                                    'Paced Rhythm':4,
+                                                    'Sinus Bradycardia':5,
+                                                    'Normal Sinus Rhythm':3,
+                                                    'sr':3,'afib':2})
+print(df_vitalsign['rhythm'].unique())
+print("=========================================================================")
+
+print(df_vitalsign['pain'].unique())
+print("=========================================================================")
+
+print(df_vitalsign.info())
+print("=========================================================================")
+
+print(df_vitalsign.head())
+print("=========================================================================")
 
 
 
