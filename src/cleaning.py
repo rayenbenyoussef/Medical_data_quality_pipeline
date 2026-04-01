@@ -256,13 +256,9 @@ print("=========================================================================
 print(df_vitalsign.head())
 print("=========================================================================")
 
-'''
+
 
 df_diagnosis = pd.read_csv(os.path.join(BASE_DIR,'data','raw','diagnosis.csv'))
-df_medrecon = pd.read_csv(os.path.join(BASE_DIR,'data','raw','medrecon.csv'))
-df_pyxis = pd.read_csv(os.path.join(BASE_DIR,'data','raw','pyxis.csv'))
-
-df_diagnosis.drop(columns=['icd_title'], inplace=True)
 
 print(df_diagnosis['seq_num'].unique())
 print("=========================================================================")
@@ -290,29 +286,67 @@ df_icd.index=range(1, len(df_icd) + 1)
 df_icd.index.name='Code'
 df_icd.to_csv(os.path.join(BASE_DIR,'data','processed','icd_mapping.csv'), index=True)
 
+df_ex_icd9=pd.read_excel(os.path.join(BASE_DIR,'data','raw','excluded_icd9_october2025.xlsx'))
+df_ex_icd9['ICD Version']=9
+df_ex_icd9.rename(columns={'LONG DESCRIPTION (EXCLUDED FY2026 ICD-9 ALL TYPES E, L, D)': 'Long Description'}, inplace=True)
+df_ex_icd10=pd.read_excel(os.path.join(BASE_DIR,'data','raw','excluded_icd10_october2025.xlsx'))
+df_ex_icd10['ICD Version']=10
+df_ex_icd10.rename(columns={'LONG DESCRIPTION (EXCLUDED FY2026 ICD-10 ALL TYPES E, L, D)': 'Long Description'}, inplace=True)
+df_ex_icd=pd.concat([df_ex_icd9, df_ex_icd10], ignore_index=True)
+df_ex_icd.index=range(1, len(df_ex_icd) + 1)
+df_ex_icd.index.name='Code'
+df_ex_icd.rename(columns={'CODE': 'ICD Code'}, inplace=True)
+print(df_ex_icd.info())
 
 df_icd=pd.read_csv(os.path.join(BASE_DIR,'data','processed','icd_mapping.csv'))
 print(df_icd.info())
 
-icd9_codes_in_diag = df_diagnosis[df_diagnosis['icd_version'] == 9]['icd_code'].unique()
-icd9_codes_in_mapping = df_icd['ICD-9 Code'].values
+icd_codes_in_diag = df_diagnosis['icd_code'].unique()
+icd_codes_in_mapping = df_icd['ICD Code'].values
 
-missing_codes = [code for code in icd9_codes_in_diag if code not in icd9_codes_in_mapping]
-print("Missing ICD-9 codes:", missing_codes)
-print(f"{len(icd9_codes_in_diag) - len(missing_codes)} / {len(icd9_codes_in_diag)} codes match the ICD-9 mapping")
+missing_codes = [code for code in icd_codes_in_diag if code not in icd_codes_in_mapping]
+print("Missing ICD codes:", missing_codes)
+print(f"{len(icd_codes_in_diag) - len(missing_codes)} / {len(icd_codes_in_diag)} codes match the ICD mapping")
 
-map_icd9=dict(zip(df_icd['ICD-9 Code'], df_icd['Code']))
+excluded_codes =[code for code in missing_codes if code in df_ex_icd['ICD Code'].values]
+missing_codes = list(set(missing_codes) - set(excluded_codes))
+print("Excluded ICD codes:", excluded_codes)
 
+missing_codes_lines = df_diagnosis[df_diagnosis['icd_code'].isin(missing_codes)][['icd_code','icd_title']].apply(pd.unique)
+excluded_codes_lines = df_diagnosis[df_diagnosis['icd_code'].isin(excluded_codes)][['icd_code','icd_title']].apply(pd.unique)
+missing_codes_lines['icd_code']=missing_codes_lines['icd_code'].apply(lambda x: x +" (unknown)")
+excluded_codes_lines['icd_code']=excluded_codes_lines['icd_code'].apply(lambda x: x +" (excluded)")
 
-df_diagnosis['icd_code'] = df_diagnosis['icd_code'].map(map_icd9)
+missing_codes_lines.rename(columns={'icd_code': 'ICD Code', 'icd_title': 'Long Description'}, inplace=True)
+excluded_codes_lines.rename(columns={'icd_code': 'ICD Code', 'icd_title': 'Long Description'}, inplace=True)
+
+df_icd = pd.concat([df_icd, missing_codes_lines, excluded_codes_lines], ignore_index=True)
+df_icd.drop(columns=['Code'], inplace=True)
+df_icd.index=range(1, len(df_icd) + 1)
+df_icd.index.name='Code'
+df_icd.to_csv(os.path.join(BASE_DIR,'data','processed','icd_mapping.csv'), index=True)
+
+df_icd=pd.read_csv(os.path.join(BASE_DIR,'data','processed','icd_mapping.csv'))
+map_icd=dict(zip(df_icd['ICD Code'], df_icd['Code']))
+df_diagnosis['icd_code'] = df_diagnosis['icd_code'].map(map_icd)
 
 print("=========================================================================")
 
-print(df_diagnosis['icd_version'].unique())
-print("=========================================================================")
+df_diagnosis.drop(columns=['icd_version'], inplace=True)
+df_diagnosis.drop(columns=['icd_title'], inplace=True)
 
 print(df_diagnosis.info())
 print("=========================================================================")
 
 print(df_diagnosis.head())
+print("=========================================================================")
+'''
+
+df_medrecon = pd.read_csv(os.path.join(BASE_DIR,'data','raw','medrecon.csv'))
+df_pyxis = pd.read_csv(os.path.join(BASE_DIR,'data','raw','pyxis.csv'))
+
+print(df_medrecon.info())
+print("=========================================================================")
+
+print(df_medrecon.head())
 print("=========================================================================")
