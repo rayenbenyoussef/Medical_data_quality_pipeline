@@ -1,0 +1,12 @@
+[INFO:20] 2026-05-31 21:41:08,379 - Hello World
+F:\code\medical-data-quality-pipeline\src\main.py - <module> - 5
+
+[ERROR:40] 2026-05-31 21:41:08,379 - error Hello World
+F:\code\medical-data-quality-pipeline\src\main.py - <module> - 6
+
+[DEBUG:10] 2026-05-31 21:41:08,379 - debug Hello World
+F:\code\medical-data-quality-pipeline\src\main.py - <module> - 7
+
+[CRITICAL:50] 2026-05-31 21:41:08,380 - critical Hello World
+F:\code\medical-data-quality-pipeline\src\main.py - <module> - 8
+

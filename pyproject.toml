@@ -1,0 +1,15 @@
+[project]
+name="medical-data-pipeline"
+version="1.0"
+requires-python="==3.14.3"
+dependencies =[
+    "python-dotenv==1.2.2",
+]
+authors = [
+    {name="Rayen Ben youssef", email="rayenbenyoussef815@gmail.com"}
+]
+
+[project.optional-dependencies]
+
+[build-system]
+
