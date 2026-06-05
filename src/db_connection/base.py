@@ -9,6 +9,9 @@ class BaseDBConnection(ABC):
     def execute(self, query: str):
         pass
     @abstractmethod
+    def fetchall(self):
+        pass
+    @abstractmethod
     def commit(self):
         pass
     @abstractmethod
