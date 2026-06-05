@@ -1,6 +1,19 @@
-from dotenv import load_dotenv
-import os
-load_dotenv()
+from  abc import ABC, abstractmethod
 
-os.getenv("DB_USER")
-os.getenv("DB_PASSWORD")
+class BaseDBConnection(ABC):
+
+    @abstractmethod
+    def connect(self):
+        pass
+    @abstractmethod
+    def execute(self, query: str):
+        pass
+    @abstractmethod
+    def commit(self):
+        pass
+    @abstractmethod
+    def rollback(self):
+        pass
+    @abstractmethod
+    def close(self):
+        pass
