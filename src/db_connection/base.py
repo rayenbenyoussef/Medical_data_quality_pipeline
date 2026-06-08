@@ -9,7 +9,7 @@ class BaseDBConnection(ABC):
     def execute(self, query: str):
         pass
     @abstractmethod
-    def fetchall(self):
+    def fetchall(self)->list[dict]:
         pass
     @abstractmethod
     def commit(self):

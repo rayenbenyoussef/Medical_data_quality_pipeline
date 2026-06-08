@@ -3,11 +3,7 @@ import pyodbc
 from typing import Optional
 
 from db_connection.connectors.exceptions import QueryError, DatabaseError, DatabaseConnectionError
-
-
-def _validate_str(value, name):
-    if not isinstance(value, str) or not value.strip():
-        raise TypeError(f"{name} must be a non-empty string")
+from quality.date_validator import _validate_str
 
 class MsSqlDBConnection(BaseDBConnection):
 
