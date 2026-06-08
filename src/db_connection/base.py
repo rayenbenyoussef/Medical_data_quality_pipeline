@@ -11,6 +11,10 @@ class BaseDBConnection(ABC):
     @abstractmethod
     def fetchall(self)->list[dict]:
         pass
+
+    @abstractmethod
+    def fetchone(self)->dict:
+        pass
     @abstractmethod
     def commit(self):
         pass
