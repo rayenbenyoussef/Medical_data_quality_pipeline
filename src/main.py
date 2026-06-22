@@ -1,8 +1,14 @@
 from src.config.logging_config import setup_logger
+from db_connection import reader,builder
+from config.DbConfig import DbConfig
+
 logger = setup_logger()
 
+config=DbConfig().get_config()
 
-logger.info("Hello World")
-logger.error("error Hello World")
-logger.debug("debug Hello World")
-logger.critical("critical Hello World")
+db=builder.ConnectionBuilder().build(config)
+
+dbr=reader.DBReader(db)
+
+res=dbr.read("select * from test")
+print(res)

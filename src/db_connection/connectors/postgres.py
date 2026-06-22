@@ -8,7 +8,7 @@ from db_connection.connectors.exceptions import QueryError, DatabaseError, Datab
 
 from quality.date_validator import _validate_str,_validate_integer
 
-class MsSqlDBConnection(BaseDBConnection):
+class PostgresSqlDBConnection(BaseDBConnection):
 
     def __init__(self,host:str,port: int,database:str,username:str,password:str):
         _validate_str(host, "host")
