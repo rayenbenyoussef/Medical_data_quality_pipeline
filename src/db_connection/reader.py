@@ -1,4 +1,4 @@
-from base import BaseDBConnection
+from db_connection.base import BaseDBConnection
 from dotenv import load_dotenv
 class DBReader:
     def __init__(self, db: BaseDBConnection):

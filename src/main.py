@@ -10,5 +10,5 @@ db=builder.ConnectionBuilder().build(config)
 
 dbr=reader.DBReader(db)
 
-res=dbr.read("select * from test")
+res = dbr.read("SELECT * FROM patients")
 print(res)
