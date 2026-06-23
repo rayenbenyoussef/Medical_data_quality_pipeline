@@ -34,7 +34,7 @@ class MsSqlDBConnection(BaseDBConnection):
             self.connection = pyodbc.connect(self.build_connection_string())
             self.cursor = self.connection.cursor()
         except pyodbc.Error as e:
-            raise DatabaseConnectionError("Error at connecting to database") from e
+            raise DatabaseConnectionError(f"Error at connecting to database: \n{e}") from e
 
 
     def execute(self,query:str, params=None):
@@ -46,7 +46,7 @@ class MsSqlDBConnection(BaseDBConnection):
                 else:
                     self.cursor.execute(query)
             except pyodbc.Error as e:
-                raise QueryError("Failed executing query") from e
+                raise QueryError(f"Failed executing query: \n{e}") from e
         else:
             raise DatabaseConnectionError("Connection/Cursor was not established to excute")
 
@@ -55,7 +55,7 @@ class MsSqlDBConnection(BaseDBConnection):
             try:
                 return self.cursor.fetchall()
             except pyodbc.Error as e:
-                raise QueryError("Failed feteching all rows") from e
+                raise QueryError(f"Failed feteching all rows: \n{e}") from e
         else:
             raise DatabaseConnectionError("Cursor was not established to fetch all")
 
@@ -64,7 +64,7 @@ class MsSqlDBConnection(BaseDBConnection):
             try:
                 return self.cursor.fetchone()
             except pyodbc.Error as e:
-                raise DatabaseError("Failed feteching one row") from e
+                raise DatabaseError(f"Failed feteching one row: \n{e}") from e
         else:
             raise DatabaseConnectionError("Cursor was not established to fetch one")
 
@@ -73,7 +73,7 @@ class MsSqlDBConnection(BaseDBConnection):
             try:
                 self.connection.commit()
             except pyodbc.Error as e:
-                raise DatabaseError("Failed commit to database") from e
+                raise DatabaseError(f"Failed commit to database: \n{e}") from e
         else:
             raise DatabaseConnectionError("Connection was not established to commit")
 
@@ -82,7 +82,7 @@ class MsSqlDBConnection(BaseDBConnection):
             try:
                 self.connection.rollback()
             except pyodbc.Error as e:
-                raise DatabaseError("Failed rollback to database") from e
+                raise DatabaseError(f"Failed rollback to database: \n{e}") from e
         else:
             raise DatabaseConnectionError("Connection was not established to rollback")
 

@@ -6,13 +6,14 @@ from db_connection.base import BaseDBConnection
 from typing import Optional, LiteralString
 from db_connection.connectors.exceptions import QueryError, DatabaseError, DatabaseConnectionError
 
-from quality.date_validator import _validate_str,_validate_integer
+from quality.date_validator import _validate_str
 
 class PostgresSqlDBConnection(BaseDBConnection):
 
-    def __init__(self,host:str,port: int,database:str,username:str,password:str):
+    def __init__(self,host:str,port: str,database:str,username:str,password:str):
         _validate_str(host, "host")
-        _validate_integer(port, "port")
+        if not port.isnumeric():
+            raise TypeError("Port must be a number")
         _validate_str(database, "database")
         _validate_str(username, "username")
 
@@ -37,7 +38,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
             self.connection = psycopg.connect(conninfo=self.build_connection_string())
             self.cursor = self.connection.cursor()
         except psycopg.Error as e:
-            raise DatabaseConnectionError("Error at connecting to database") from e
+            raise DatabaseConnectionError(f"Error at connecting to database: \n{e}") from e
 
 
     def execute(self,query:LiteralString, params=None):
@@ -49,7 +50,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
                 else:
                     self.cursor.execute(query)
             except psycopg.Error as e:
-                raise QueryError("Failed executing query") from e
+                raise QueryError(f"Failed executing query: \n{e}") from e
         else:
             raise DatabaseConnectionError("Connection/Cursor was not established to excute")
 
@@ -58,7 +59,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
             try:
                 return self.cursor.fetchall()
             except psycopg.Error as e:
-                raise QueryError("Failed feteching all rows") from e
+                raise QueryError(f"Failed feteching all rows: \n{e}") from e
         else:
             raise DatabaseConnectionError("Cursor was not established to fetch all")
 
@@ -67,7 +68,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
             try:
                 return self.cursor.fetchone()
             except psycopg.Error as e:
-                raise DatabaseError("Failed feteching one row") from e
+                raise DatabaseError(f"Failed feteching one row: \n{e}") from e
         else:
             raise DatabaseConnectionError("Cursor was not established to fetch one")
 
@@ -76,7 +77,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
             try:
                 self.connection.commit()
             except psycopg.Error as e:
-                raise DatabaseError("Failed commit to database") from e
+                raise DatabaseError(f"Failed commit to database: \n{e}") from e
         else:
             raise DatabaseConnectionError("Connection was not established to commit")
 
@@ -85,7 +86,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
             try:
                 self.connection.rollback()
             except psycopg.Error as e:
-                raise DatabaseError("Failed rollback to database") from e
+                raise DatabaseError(f"Failed rollback to database: \n{e}") from e
         else:
             raise DatabaseConnectionError("Connection was not established to rollback")
 

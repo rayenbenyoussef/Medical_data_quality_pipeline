@@ -2,11 +2,15 @@ from  abc import ABC, abstractmethod
 
 class BaseDBConnection(ABC):
 
+    def __init__(self):
+        self.cursor = None
+        self.connection = None
+
     @abstractmethod
     def connect(self):
         pass
     @abstractmethod
-    def execute(self, query: str):
+    def execute(self, query: str,params=None):
         pass
     @abstractmethod
     def fetchall(self)->list[dict]:
