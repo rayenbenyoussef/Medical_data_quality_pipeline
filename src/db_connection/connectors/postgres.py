@@ -11,6 +11,7 @@ from quality.date_validator import _validate_str
 class PostgresSqlDBConnection(BaseDBConnection):
 
     def __init__(self,host:str,port: str,database:str,username:str,password:str):
+        super().__init__()
         _validate_str(host, "host")
         if not port.isnumeric():
             raise TypeError("Port must be a number")
@@ -20,7 +21,7 @@ class PostgresSqlDBConnection(BaseDBConnection):
         self.connection: Optional[psycopg.Connection] = None
         self.cursor:  Optional[psycopg.Cursor] = None
         self.host: str= host
-        self.port: int= port
+        self.port: str= port
         self.database: str= database
         self.username: str= username
         self.password: str= password
