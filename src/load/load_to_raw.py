@@ -38,4 +38,5 @@ class CSVLoader:
             sql +="(" +",".join(rowlist)+") ,"
         sql = sql[:-1]
         sql+=";"
+
         print(sql)
