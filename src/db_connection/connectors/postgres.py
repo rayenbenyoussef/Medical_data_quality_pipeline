@@ -91,6 +91,10 @@ class PostgresSqlDBConnection(BaseDBConnection):
         else:
             raise DatabaseConnectionError("Connection was not established to rollback")
 
+    @property
+    def placeholder(self) -> str:
+        return "%s"
+
     def close(self):
         if self.cursor:
             self.cursor.close()

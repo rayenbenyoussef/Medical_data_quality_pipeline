@@ -1,0 +1,3132 @@
+[INFO:20] 2026-06-25 22:53:58,843 - preparing table vitalsign.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 25
+
+[INFO:20] 2026-06-25 22:53:58,843 - creating table vitalsign.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 34
+
+[INFO:20] 2026-06-25 22:53:58,894 - Table vitalsign created
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 36
+
+[INFO:20] 2026-06-25 22:53:58,894 - preparing data of vitalsign table.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 38
+
+[INFO:20] 2026-06-25 22:53:58,894 - inserting data of vitalsign table.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 45
+
+[INFO:20] 2026-06-25 22:53:58,939 - 	loaded 1/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:58,972 - 	loaded 2/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,006 - 	loaded 3/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,040 - 	loaded 4/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,073 - 	loaded 5/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,214 - 	loaded 6/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,257 - 	loaded 7/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,286 - 	loaded 8/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,319 - 	loaded 9/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,352 - 	loaded 10/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,383 - 	loaded 11/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,413 - 	loaded 12/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,444 - 	loaded 13/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,475 - 	loaded 14/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,628 - 	loaded 15/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,666 - 	loaded 16/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,701 - 	loaded 17/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,739 - 	loaded 18/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,776 - 	loaded 19/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,817 - 	loaded 20/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,855 - 	loaded 21/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:53:59,992 - 	loaded 22/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,034 - 	loaded 23/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,067 - 	loaded 24/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,102 - 	loaded 25/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,134 - 	loaded 26/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,164 - 	loaded 27/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,195 - 	loaded 28/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,228 - 	loaded 29/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,259 - 	loaded 30/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,290 - 	loaded 31/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,324 - 	loaded 32/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,354 - 	loaded 33/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,386 - 	loaded 34/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,532 - 	loaded 35/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,563 - 	loaded 36/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,594 - 	loaded 37/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,625 - 	loaded 38/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,664 - 	loaded 39/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,806 - 	loaded 40/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,839 - 	loaded 41/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,872 - 	loaded 42/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,903 - 	loaded 43/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,934 - 	loaded 44/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,965 - 	loaded 45/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:00,997 - 	loaded 46/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,031 - 	loaded 47/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,067 - 	loaded 48/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,101 - 	loaded 49/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,131 - 	loaded 50/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,162 - 	loaded 51/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,299 - 	loaded 52/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,457 - 	loaded 53/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,490 - 	loaded 54/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,521 - 	loaded 55/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,551 - 	loaded 56/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,580 - 	loaded 57/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,611 - 	loaded 58/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,641 - 	loaded 59/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,671 - 	loaded 60/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,703 - 	loaded 61/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,736 - 	loaded 62/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,770 - 	loaded 63/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,804 - 	loaded 64/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,834 - 	loaded 65/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:01,984 - 	loaded 66/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,015 - 	loaded 67/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,050 - 	loaded 68/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,082 - 	loaded 69/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,222 - 	loaded 70/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,255 - 	loaded 71/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,289 - 	loaded 72/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,318 - 	loaded 73/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,348 - 	loaded 74/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,378 - 	loaded 75/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,409 - 	loaded 76/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,443 - 	loaded 77/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,478 - 	loaded 78/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,512 - 	loaded 79/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,543 - 	loaded 80/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,573 - 	loaded 81/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,605 - 	loaded 82/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,636 - 	loaded 83/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,679 - 	loaded 84/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,712 - 	loaded 85/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,742 - 	loaded 86/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,775 - 	loaded 87/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,806 - 	loaded 88/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,955 - 	loaded 89/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:02,986 - 	loaded 90/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,018 - 	loaded 91/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,049 - 	loaded 92/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,082 - 	loaded 93/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,114 - 	loaded 94/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,146 - 	loaded 95/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,193 - 	loaded 96/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,247 - 	loaded 97/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,292 - 	loaded 98/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,335 - 	loaded 99/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,380 - 	loaded 100/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,436 - 	loaded 101/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,497 - 	loaded 102/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,544 - 	loaded 103/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,588 - 	loaded 104/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,618 - 	loaded 105/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,651 - 	loaded 106/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,687 - 	loaded 107/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,725 - 	loaded 108/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,761 - 	loaded 109/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,800 - 	loaded 110/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,837 - 	loaded 111/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,876 - 	loaded 112/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,910 - 	loaded 113/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,941 - 	loaded 114/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:03,972 - 	loaded 115/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,005 - 	loaded 116/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,035 - 	loaded 117/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,066 - 	loaded 118/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,099 - 	loaded 119/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,132 - 	loaded 120/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,164 - 	loaded 121/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,320 - 	loaded 122/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,459 - 	loaded 123/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,494 - 	loaded 124/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,526 - 	loaded 125/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,558 - 	loaded 126/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,588 - 	loaded 127/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,620 - 	loaded 128/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,652 - 	loaded 129/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,681 - 	loaded 130/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,714 - 	loaded 131/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,747 - 	loaded 132/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,782 - 	loaded 133/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,813 - 	loaded 134/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,845 - 	loaded 135/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:04,876 - 	loaded 136/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,023 - 	loaded 137/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,165 - 	loaded 138/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,310 - 	loaded 139/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,341 - 	loaded 140/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,370 - 	loaded 141/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,407 - 	loaded 142/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,439 - 	loaded 143/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,576 - 	loaded 144/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,608 - 	loaded 145/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,639 - 	loaded 146/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,668 - 	loaded 147/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,699 - 	loaded 148/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,729 - 	loaded 149/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,762 - 	loaded 150/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,909 - 	loaded 151/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,940 - 	loaded 152/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:05,973 - 	loaded 153/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,118 - 	loaded 154/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,158 - 	loaded 155/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,190 - 	loaded 156/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,222 - 	loaded 157/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,253 - 	loaded 158/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,282 - 	loaded 159/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,311 - 	loaded 160/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,344 - 	loaded 161/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,376 - 	loaded 162/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,543 - 	loaded 163/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,589 - 	loaded 164/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,618 - 	loaded 165/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,649 - 	loaded 166/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,679 - 	loaded 167/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,710 - 	loaded 168/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,741 - 	loaded 169/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,771 - 	loaded 170/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,811 - 	loaded 171/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,847 - 	loaded 172/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,881 - 	loaded 173/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,911 - 	loaded 174/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,942 - 	loaded 175/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:06,978 - 	loaded 176/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,009 - 	loaded 177/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,041 - 	loaded 178/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,075 - 	loaded 179/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,107 - 	loaded 180/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,138 - 	loaded 181/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,171 - 	loaded 182/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,202 - 	loaded 183/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,233 - 	loaded 184/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,265 - 	loaded 185/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,300 - 	loaded 186/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,336 - 	loaded 187/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,366 - 	loaded 188/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,398 - 	loaded 189/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,539 - 	loaded 190/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,570 - 	loaded 191/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,603 - 	loaded 192/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,634 - 	loaded 193/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,666 - 	loaded 194/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,696 - 	loaded 195/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,727 - 	loaded 196/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,758 - 	loaded 197/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,791 - 	loaded 198/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,823 - 	loaded 199/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,856 - 	loaded 200/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,889 - 	loaded 201/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:07,920 - 	loaded 202/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,053 - 	loaded 203/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,213 - 	loaded 204/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,370 - 	loaded 205/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,400 - 	loaded 206/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,432 - 	loaded 207/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,581 - 	loaded 208/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,615 - 	loaded 209/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,648 - 	loaded 210/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,680 - 	loaded 211/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,711 - 	loaded 212/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,742 - 	loaded 213/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,774 - 	loaded 214/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,809 - 	loaded 215/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,843 - 	loaded 216/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,875 - 	loaded 217/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,906 - 	loaded 218/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,939 - 	loaded 219/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:08,974 - 	loaded 220/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,006 - 	loaded 221/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,039 - 	loaded 222/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,073 - 	loaded 223/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,105 - 	loaded 224/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,137 - 	loaded 225/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,167 - 	loaded 226/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,198 - 	loaded 227/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,230 - 	loaded 228/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,390 - 	loaded 229/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,423 - 	loaded 230/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,454 - 	loaded 231/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,488 - 	loaded 232/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,519 - 	loaded 233/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,549 - 	loaded 234/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,683 - 	loaded 235/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,712 - 	loaded 236/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,745 - 	loaded 237/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,776 - 	loaded 238/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,806 - 	loaded 239/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,837 - 	loaded 240/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,870 - 	loaded 241/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,902 - 	loaded 242/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,934 - 	loaded 243/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,966 - 	loaded 244/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:09,996 - 	loaded 245/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,027 - 	loaded 246/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,059 - 	loaded 247/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,091 - 	loaded 248/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,124 - 	loaded 249/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,158 - 	loaded 250/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,188 - 	loaded 251/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,326 - 	loaded 252/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,360 - 	loaded 253/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,394 - 	loaded 254/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,427 - 	loaded 255/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,457 - 	loaded 256/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,488 - 	loaded 257/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,522 - 	loaded 258/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,558 - 	loaded 259/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,600 - 	loaded 260/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,635 - 	loaded 261/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,667 - 	loaded 262/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,707 - 	loaded 263/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,740 - 	loaded 264/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,884 - 	loaded 265/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,924 - 	loaded 266/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,957 - 	loaded 267/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:10,987 - 	loaded 268/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,018 - 	loaded 269/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,155 - 	loaded 270/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,186 - 	loaded 271/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,218 - 	loaded 272/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,250 - 	loaded 273/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,279 - 	loaded 274/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,308 - 	loaded 275/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,339 - 	loaded 276/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,486 - 	loaded 277/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,643 - 	loaded 278/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,673 - 	loaded 279/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,704 - 	loaded 280/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,735 - 	loaded 281/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,766 - 	loaded 282/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,797 - 	loaded 283/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:11,958 - 	loaded 284/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,113 - 	loaded 285/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,153 - 	loaded 286/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,186 - 	loaded 287/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,342 - 	loaded 288/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,376 - 	loaded 289/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,414 - 	loaded 290/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,565 - 	loaded 291/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,617 - 	loaded 292/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,652 - 	loaded 293/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,686 - 	loaded 294/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,719 - 	loaded 295/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,750 - 	loaded 296/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,781 - 	loaded 297/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,813 - 	loaded 298/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,850 - 	loaded 299/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,887 - 	loaded 300/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,922 - 	loaded 301/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,952 - 	loaded 302/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:12,984 - 	loaded 303/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,015 - 	loaded 304/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,050 - 	loaded 305/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,194 - 	loaded 306/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,225 - 	loaded 307/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,256 - 	loaded 308/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,396 - 	loaded 309/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,431 - 	loaded 310/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,462 - 	loaded 311/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,493 - 	loaded 312/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,524 - 	loaded 313/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,555 - 	loaded 314/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,585 - 	loaded 315/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,617 - 	loaded 316/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,650 - 	loaded 317/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,792 - 	loaded 318/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,827 - 	loaded 319/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,861 - 	loaded 320/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,899 - 	loaded 321/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,941 - 	loaded 322/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:13,975 - 	loaded 323/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,007 - 	loaded 324/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,156 - 	loaded 325/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,194 - 	loaded 326/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,227 - 	loaded 327/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,259 - 	loaded 328/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,290 - 	loaded 329/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,323 - 	loaded 330/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,354 - 	loaded 331/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,517 - 	loaded 332/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,546 - 	loaded 333/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,583 - 	loaded 334/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,614 - 	loaded 335/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,643 - 	loaded 336/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,673 - 	loaded 337/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,828 - 	loaded 338/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,863 - 	loaded 339/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:14,897 - 	loaded 340/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,045 - 	loaded 341/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,078 - 	loaded 342/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,109 - 	loaded 343/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,243 - 	loaded 344/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,283 - 	loaded 345/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,313 - 	loaded 346/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,343 - 	loaded 347/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,375 - 	loaded 348/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,404 - 	loaded 349/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,433 - 	loaded 350/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,463 - 	loaded 351/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,496 - 	loaded 352/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,532 - 	loaded 353/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,563 - 	loaded 354/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,593 - 	loaded 355/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,623 - 	loaded 356/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,765 - 	loaded 357/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,797 - 	loaded 358/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,835 - 	loaded 359/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,868 - 	loaded 360/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,900 - 	loaded 361/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,933 - 	loaded 362/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:15,970 - 	loaded 363/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,004 - 	loaded 364/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,035 - 	loaded 365/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,065 - 	loaded 366/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,097 - 	loaded 367/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,129 - 	loaded 368/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,164 - 	loaded 369/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,198 - 	loaded 370/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,230 - 	loaded 371/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,263 - 	loaded 372/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,446 - 	loaded 373/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,477 - 	loaded 374/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,511 - 	loaded 375/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,679 - 	loaded 376/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,713 - 	loaded 377/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,747 - 	loaded 378/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,777 - 	loaded 379/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,929 - 	loaded 380/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,963 - 	loaded 381/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:16,994 - 	loaded 382/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,157 - 	loaded 383/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,194 - 	loaded 384/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,230 - 	loaded 385/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,269 - 	loaded 386/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,305 - 	loaded 387/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,336 - 	loaded 388/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,371 - 	loaded 389/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,407 - 	loaded 390/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,440 - 	loaded 391/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,469 - 	loaded 392/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,499 - 	loaded 393/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,530 - 	loaded 394/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,561 - 	loaded 395/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,595 - 	loaded 396/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,628 - 	loaded 397/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,661 - 	loaded 398/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,693 - 	loaded 399/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,724 - 	loaded 400/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,756 - 	loaded 401/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,889 - 	loaded 402/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,920 - 	loaded 403/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,951 - 	loaded 404/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:17,983 - 	loaded 405/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,015 - 	loaded 406/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,159 - 	loaded 407/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,189 - 	loaded 408/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,221 - 	loaded 409/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,254 - 	loaded 410/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,284 - 	loaded 411/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,316 - 	loaded 412/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,348 - 	loaded 413/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,497 - 	loaded 414/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,531 - 	loaded 415/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,565 - 	loaded 416/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,599 - 	loaded 417/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,632 - 	loaded 418/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,665 - 	loaded 419/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,695 - 	loaded 420/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,729 - 	loaded 421/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,763 - 	loaded 422/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,793 - 	loaded 423/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,936 - 	loaded 424/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:18,976 - 	loaded 425/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,144 - 	loaded 426/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,185 - 	loaded 427/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,331 - 	loaded 428/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,366 - 	loaded 429/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,398 - 	loaded 430/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,431 - 	loaded 431/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,566 - 	loaded 432/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,603 - 	loaded 433/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,634 - 	loaded 434/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,663 - 	loaded 435/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,693 - 	loaded 436/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,722 - 	loaded 437/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,752 - 	loaded 438/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,784 - 	loaded 439/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,818 - 	loaded 440/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:19,852 - 	loaded 441/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,001 - 	loaded 442/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,037 - 	loaded 443/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,067 - 	loaded 444/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,244 - 	loaded 445/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,278 - 	loaded 446/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,311 - 	loaded 447/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,465 - 	loaded 448/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,629 - 	loaded 449/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,780 - 	loaded 450/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,815 - 	loaded 451/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,848 - 	loaded 452/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,879 - 	loaded 453/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,909 - 	loaded 454/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,942 - 	loaded 455/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:20,973 - 	loaded 456/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,006 - 	loaded 457/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,039 - 	loaded 458/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,071 - 	loaded 459/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,102 - 	loaded 460/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,134 - 	loaded 461/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,164 - 	loaded 462/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,197 - 	loaded 463/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,345 - 	loaded 464/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,380 - 	loaded 465/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,541 - 	loaded 466/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,586 - 	loaded 467/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,619 - 	loaded 468/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,648 - 	loaded 469/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,678 - 	loaded 470/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,707 - 	loaded 471/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,735 - 	loaded 472/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,886 - 	loaded 473/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:21,920 - 	loaded 474/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,076 - 	loaded 475/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,112 - 	loaded 476/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,146 - 	loaded 477/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,293 - 	loaded 478/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,337 - 	loaded 479/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,370 - 	loaded 480/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,401 - 	loaded 481/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,433 - 	loaded 482/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,576 - 	loaded 483/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,607 - 	loaded 484/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,637 - 	loaded 485/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,667 - 	loaded 486/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,698 - 	loaded 487/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,730 - 	loaded 488/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,761 - 	loaded 489/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,792 - 	loaded 490/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,957 - 	loaded 491/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:22,988 - 	loaded 492/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,020 - 	loaded 493/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,050 - 	loaded 494/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,218 - 	loaded 495/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,260 - 	loaded 496/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,296 - 	loaded 497/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,331 - 	loaded 498/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,363 - 	loaded 499/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,397 - 	loaded 500/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,428 - 	loaded 501/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,578 - 	loaded 502/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,609 - 	loaded 503/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,639 - 	loaded 504/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,668 - 	loaded 505/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,701 - 	loaded 506/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,735 - 	loaded 507/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,766 - 	loaded 508/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,938 - 	loaded 509/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:23,984 - 	loaded 510/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,021 - 	loaded 511/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,053 - 	loaded 512/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,197 - 	loaded 513/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,347 - 	loaded 514/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,383 - 	loaded 515/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,413 - 	loaded 516/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,442 - 	loaded 517/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,473 - 	loaded 518/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,506 - 	loaded 519/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,538 - 	loaded 520/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,570 - 	loaded 521/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,602 - 	loaded 522/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,636 - 	loaded 523/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,668 - 	loaded 524/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,700 - 	loaded 525/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,732 - 	loaded 526/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,765 - 	loaded 527/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,796 - 	loaded 528/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,830 - 	loaded 529/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:24,980 - 	loaded 530/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,018 - 	loaded 531/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,046 - 	loaded 532/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,079 - 	loaded 533/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,112 - 	loaded 534/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,143 - 	loaded 535/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,175 - 	loaded 536/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,213 - 	loaded 537/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,246 - 	loaded 538/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,277 - 	loaded 539/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,307 - 	loaded 540/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,338 - 	loaded 541/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,476 - 	loaded 542/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,510 - 	loaded 543/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,540 - 	loaded 544/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,682 - 	loaded 545/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,821 - 	loaded 546/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:25,975 - 	loaded 547/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,152 - 	loaded 548/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,302 - 	loaded 549/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,450 - 	loaded 550/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,484 - 	loaded 551/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,514 - 	loaded 552/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,548 - 	loaded 553/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,704 - 	loaded 554/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,740 - 	loaded 555/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,773 - 	loaded 556/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,804 - 	loaded 557/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,836 - 	loaded 558/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,866 - 	loaded 559/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:26,895 - 	loaded 560/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,041 - 	loaded 561/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,073 - 	loaded 562/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,105 - 	loaded 563/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,143 - 	loaded 564/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,173 - 	loaded 565/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,201 - 	loaded 566/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,235 - 	loaded 567/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,270 - 	loaded 568/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,422 - 	loaded 569/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,451 - 	loaded 570/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,492 - 	loaded 571/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,526 - 	loaded 572/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,560 - 	loaded 573/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,590 - 	loaded 574/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,622 - 	loaded 575/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,652 - 	loaded 576/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,685 - 	loaded 577/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,719 - 	loaded 578/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,751 - 	loaded 579/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,784 - 	loaded 580/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,815 - 	loaded 581/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,846 - 	loaded 582/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,878 - 	loaded 583/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,909 - 	loaded 584/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,942 - 	loaded 585/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:27,977 - 	loaded 586/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,010 - 	loaded 587/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,043 - 	loaded 588/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,074 - 	loaded 589/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,106 - 	loaded 590/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,137 - 	loaded 591/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,170 - 	loaded 592/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,204 - 	loaded 593/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,236 - 	loaded 594/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,375 - 	loaded 595/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,415 - 	loaded 596/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,447 - 	loaded 597/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,478 - 	loaded 598/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,509 - 	loaded 599/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,541 - 	loaded 600/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,573 - 	loaded 601/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,609 - 	loaded 602/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,645 - 	loaded 603/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,792 - 	loaded 604/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,831 - 	loaded 605/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:28,985 - 	loaded 606/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,021 - 	loaded 607/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,059 - 	loaded 608/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,093 - 	loaded 609/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,129 - 	loaded 610/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,161 - 	loaded 611/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,194 - 	loaded 612/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,227 - 	loaded 613/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,387 - 	loaded 614/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,419 - 	loaded 615/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,450 - 	loaded 616/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,595 - 	loaded 617/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,635 - 	loaded 618/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,798 - 	loaded 619/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,855 - 	loaded 620/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,889 - 	loaded 621/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,920 - 	loaded 622/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:29,950 - 	loaded 623/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,096 - 	loaded 624/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,136 - 	loaded 625/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,171 - 	loaded 626/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,204 - 	loaded 627/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,237 - 	loaded 628/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,273 - 	loaded 629/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,307 - 	loaded 630/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,340 - 	loaded 631/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,370 - 	loaded 632/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,534 - 	loaded 633/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,569 - 	loaded 634/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,607 - 	loaded 635/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,639 - 	loaded 636/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,670 - 	loaded 637/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,700 - 	loaded 638/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,845 - 	loaded 639/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,883 - 	loaded 640/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,913 - 	loaded 641/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,942 - 	loaded 642/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:30,975 - 	loaded 643/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,006 - 	loaded 644/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,036 - 	loaded 645/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,068 - 	loaded 646/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,103 - 	loaded 647/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,135 - 	loaded 648/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,165 - 	loaded 649/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,198 - 	loaded 650/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,228 - 	loaded 651/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,260 - 	loaded 652/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,293 - 	loaded 653/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,325 - 	loaded 654/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,356 - 	loaded 655/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,387 - 	loaded 656/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,524 - 	loaded 657/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,680 - 	loaded 658/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,712 - 	loaded 659/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,742 - 	loaded 660/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,774 - 	loaded 661/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,806 - 	loaded 662/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,836 - 	loaded 663/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,867 - 	loaded 664/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,898 - 	loaded 665/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,930 - 	loaded 666/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,962 - 	loaded 667/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:31,996 - 	loaded 668/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,028 - 	loaded 669/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,060 - 	loaded 670/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,091 - 	loaded 671/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,237 - 	loaded 672/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,269 - 	loaded 673/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,303 - 	loaded 674/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,333 - 	loaded 675/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,364 - 	loaded 676/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,394 - 	loaded 677/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,423 - 	loaded 678/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,582 - 	loaded 679/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,615 - 	loaded 680/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,646 - 	loaded 681/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,676 - 	loaded 682/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,706 - 	loaded 683/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,736 - 	loaded 684/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,765 - 	loaded 685/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,799 - 	loaded 686/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,836 - 	loaded 687/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,868 - 	loaded 688/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,900 - 	loaded 689/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,933 - 	loaded 690/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:32,966 - 	loaded 691/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,108 - 	loaded 692/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,248 - 	loaded 693/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,282 - 	loaded 694/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,315 - 	loaded 695/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,351 - 	loaded 696/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,384 - 	loaded 697/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,416 - 	loaded 698/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,447 - 	loaded 699/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,478 - 	loaded 700/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,510 - 	loaded 701/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,664 - 	loaded 702/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,824 - 	loaded 703/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:33,862 - 	loaded 704/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,005 - 	loaded 705/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,036 - 	loaded 706/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,066 - 	loaded 707/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,102 - 	loaded 708/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,134 - 	loaded 709/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,164 - 	loaded 710/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,195 - 	loaded 711/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,226 - 	loaded 712/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,258 - 	loaded 713/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,286 - 	loaded 714/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,315 - 	loaded 715/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,350 - 	loaded 716/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,384 - 	loaded 717/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,412 - 	loaded 718/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,443 - 	loaded 719/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,474 - 	loaded 720/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,506 - 	loaded 721/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,645 - 	loaded 722/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,680 - 	loaded 723/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,859 - 	loaded 724/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,892 - 	loaded 725/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,924 - 	loaded 726/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,956 - 	loaded 727/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:34,991 - 	loaded 728/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,026 - 	loaded 729/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,059 - 	loaded 730/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,205 - 	loaded 731/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,234 - 	loaded 732/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,265 - 	loaded 733/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,298 - 	loaded 734/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,331 - 	loaded 735/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,364 - 	loaded 736/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,517 - 	loaded 737/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,664 - 	loaded 738/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,698 - 	loaded 739/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,730 - 	loaded 740/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,762 - 	loaded 741/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,791 - 	loaded 742/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,823 - 	loaded 743/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,853 - 	loaded 744/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,884 - 	loaded 745/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,915 - 	loaded 746/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,948 - 	loaded 747/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:35,980 - 	loaded 748/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,013 - 	loaded 749/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,044 - 	loaded 750/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,078 - 	loaded 751/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,108 - 	loaded 752/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,138 - 	loaded 753/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,172 - 	loaded 754/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,207 - 	loaded 755/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,240 - 	loaded 756/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,400 - 	loaded 757/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,431 - 	loaded 758/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,462 - 	loaded 759/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,595 - 	loaded 760/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,736 - 	loaded 761/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,770 - 	loaded 762/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,805 - 	loaded 763/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,842 - 	loaded 764/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,879 - 	loaded 765/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,917 - 	loaded 766/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,956 - 	loaded 767/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:36,990 - 	loaded 768/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,131 - 	loaded 769/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,164 - 	loaded 770/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,200 - 	loaded 771/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,231 - 	loaded 772/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,262 - 	loaded 773/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,293 - 	loaded 774/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,322 - 	loaded 775/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,461 - 	loaded 776/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,496 - 	loaded 777/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,525 - 	loaded 778/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,556 - 	loaded 779/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,591 - 	loaded 780/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,627 - 	loaded 781/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,665 - 	loaded 782/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,700 - 	loaded 783/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,839 - 	loaded 784/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,878 - 	loaded 785/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,916 - 	loaded 786/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,951 - 	loaded 787/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:37,985 - 	loaded 788/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,019 - 	loaded 789/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,052 - 	loaded 790/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,088 - 	loaded 791/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,123 - 	loaded 792/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,152 - 	loaded 793/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,189 - 	loaded 794/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,219 - 	loaded 795/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,365 - 	loaded 796/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,398 - 	loaded 797/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,429 - 	loaded 798/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,459 - 	loaded 799/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,491 - 	loaded 800/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,522 - 	loaded 801/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,556 - 	loaded 802/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,587 - 	loaded 803/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,619 - 	loaded 804/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,650 - 	loaded 805/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,681 - 	loaded 806/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,711 - 	loaded 807/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,742 - 	loaded 808/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:38,881 - 	loaded 809/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,026 - 	loaded 810/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,060 - 	loaded 811/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,094 - 	loaded 812/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,124 - 	loaded 813/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,157 - 	loaded 814/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,188 - 	loaded 815/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,220 - 	loaded 816/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,251 - 	loaded 817/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,281 - 	loaded 818/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,312 - 	loaded 819/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,344 - 	loaded 820/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,377 - 	loaded 821/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,408 - 	loaded 822/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,438 - 	loaded 823/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,469 - 	loaded 824/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,498 - 	loaded 825/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,639 - 	loaded 826/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,672 - 	loaded 827/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,705 - 	loaded 828/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,870 - 	loaded 829/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,900 - 	loaded 830/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,932 - 	loaded 831/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,965 - 	loaded 832/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:39,999 - 	loaded 833/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,029 - 	loaded 834/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,063 - 	loaded 835/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,098 - 	loaded 836/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,133 - 	loaded 837/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,165 - 	loaded 838/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,197 - 	loaded 839/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,228 - 	loaded 840/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,260 - 	loaded 841/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,289 - 	loaded 842/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,433 - 	loaded 843/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,463 - 	loaded 844/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,496 - 	loaded 845/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,525 - 	loaded 846/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,672 - 	loaded 847/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,705 - 	loaded 848/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,735 - 	loaded 849/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,773 - 	loaded 850/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,805 - 	loaded 851/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,839 - 	loaded 852/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,871 - 	loaded 853/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,905 - 	loaded 854/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,938 - 	loaded 855/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:40,972 - 	loaded 856/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,005 - 	loaded 857/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,147 - 	loaded 858/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,177 - 	loaded 859/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,210 - 	loaded 860/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,239 - 	loaded 861/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,270 - 	loaded 862/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,299 - 	loaded 863/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,331 - 	loaded 864/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,363 - 	loaded 865/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,394 - 	loaded 866/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,427 - 	loaded 867/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,457 - 	loaded 868/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,596 - 	loaded 869/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,634 - 	loaded 870/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,664 - 	loaded 871/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,697 - 	loaded 872/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,726 - 	loaded 873/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,755 - 	loaded 874/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,896 - 	loaded 875/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,927 - 	loaded 876/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,958 - 	loaded 877/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:41,990 - 	loaded 878/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,021 - 	loaded 879/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,164 - 	loaded 880/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,195 - 	loaded 881/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,227 - 	loaded 882/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,260 - 	loaded 883/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,294 - 	loaded 884/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,429 - 	loaded 885/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,463 - 	loaded 886/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,494 - 	loaded 887/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,653 - 	loaded 888/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,693 - 	loaded 889/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,726 - 	loaded 890/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,755 - 	loaded 891/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,786 - 	loaded 892/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,821 - 	loaded 893/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,851 - 	loaded 894/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,889 - 	loaded 895/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:42,923 - 	loaded 896/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,066 - 	loaded 897/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,096 - 	loaded 898/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,129 - 	loaded 899/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,159 - 	loaded 900/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,189 - 	loaded 901/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,221 - 	loaded 902/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,251 - 	loaded 903/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,282 - 	loaded 904/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,313 - 	loaded 905/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,347 - 	loaded 906/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,485 - 	loaded 907/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,516 - 	loaded 908/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,549 - 	loaded 909/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,581 - 	loaded 910/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,614 - 	loaded 911/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,644 - 	loaded 912/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,676 - 	loaded 913/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,707 - 	loaded 914/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,852 - 	loaded 915/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:43,991 - 	loaded 916/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,028 - 	loaded 917/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,072 - 	loaded 918/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,222 - 	loaded 919/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,259 - 	loaded 920/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,294 - 	loaded 921/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,327 - 	loaded 922/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,357 - 	loaded 923/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,391 - 	loaded 924/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,424 - 	loaded 925/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,453 - 	loaded 926/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,487 - 	loaded 927/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,520 - 	loaded 928/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,554 - 	loaded 929/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,587 - 	loaded 930/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,616 - 	loaded 931/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,650 - 	loaded 932/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,680 - 	loaded 933/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,712 - 	loaded 934/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,746 - 	loaded 935/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,782 - 	loaded 936/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,813 - 	loaded 937/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,845 - 	loaded 938/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,875 - 	loaded 939/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,907 - 	loaded 940/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,939 - 	loaded 941/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:44,972 - 	loaded 942/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,123 - 	loaded 943/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,154 - 	loaded 944/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,185 - 	loaded 945/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,217 - 	loaded 946/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,249 - 	loaded 947/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,277 - 	loaded 948/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,309 - 	loaded 949/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,340 - 	loaded 950/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,373 - 	loaded 951/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,405 - 	loaded 952/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,447 - 	loaded 953/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,478 - 	loaded 954/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,510 - 	loaded 955/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,541 - 	loaded 956/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,573 - 	loaded 957/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,604 - 	loaded 958/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,639 - 	loaded 959/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,674 - 	loaded 960/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,706 - 	loaded 961/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,736 - 	loaded 962/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,898 - 	loaded 963/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:45,928 - 	loaded 964/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,076 - 	loaded 965/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,246 - 	loaded 966/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,279 - 	loaded 967/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,315 - 	loaded 968/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,349 - 	loaded 969/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,382 - 	loaded 970/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,413 - 	loaded 971/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,443 - 	loaded 972/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,476 - 	loaded 973/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,508 - 	loaded 974/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,541 - 	loaded 975/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,572 - 	loaded 976/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,605 - 	loaded 977/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,635 - 	loaded 978/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,665 - 	loaded 979/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,697 - 	loaded 980/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,730 - 	loaded 981/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,764 - 	loaded 982/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,797 - 	loaded 983/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,829 - 	loaded 984/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:46,971 - 	loaded 985/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,117 - 	loaded 986/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,150 - 	loaded 987/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,185 - 	loaded 988/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,218 - 	loaded 989/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,250 - 	loaded 990/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,280 - 	loaded 991/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,314 - 	loaded 992/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,345 - 	loaded 993/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,377 - 	loaded 994/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,408 - 	loaded 995/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,443 - 	loaded 996/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,476 - 	loaded 997/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,625 - 	loaded 998/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,656 - 	loaded 999/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,688 - 	loaded 1000/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,718 - 	loaded 1001/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,749 - 	loaded 1002/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,780 - 	loaded 1003/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,811 - 	loaded 1004/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,843 - 	loaded 1005/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:47,877 - 	loaded 1006/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,026 - 	loaded 1007/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,061 - 	loaded 1008/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,095 - 	loaded 1009/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,123 - 	loaded 1010/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,263 - 	loaded 1011/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,404 - 	loaded 1012/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,436 - 	loaded 1013/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,577 - 	loaded 1014/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,620 - 	loaded 1015/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,652 - 	loaded 1016/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,685 - 	loaded 1017/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,719 - 	loaded 1018/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,757 - 	loaded 1019/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,800 - 	loaded 1020/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,836 - 	loaded 1021/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,868 - 	loaded 1022/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,900 - 	loaded 1023/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,930 - 	loaded 1024/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,963 - 	loaded 1025/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:48,995 - 	loaded 1026/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,032 - 	loaded 1027/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,067 - 	loaded 1028/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,097 - 	loaded 1029/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,129 - 	loaded 1030/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,162 - 	loaded 1031/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,191 - 	loaded 1032/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,225 - 	loaded 1033/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,260 - 	loaded 1034/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,295 - 	loaded 1035/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,326 - 	loaded 1036/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,357 - 	loaded 1037/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,499 - 	loaded 1038/1038 of the data.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 49
+
+[INFO:20] 2026-06-25 22:54:49,500 - data of vitalsign table inserted.
+F:\code\medical-data-quality-pipeline\src\load\load_to_raw.py - load - 50
+

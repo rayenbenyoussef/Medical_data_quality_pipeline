@@ -28,3 +28,8 @@ class BaseDBConnection(ABC):
     @abstractmethod
     def close(self):
         pass
+
+    @property
+    @abstractmethod
+    def placeholder(self) -> str:
+        pass

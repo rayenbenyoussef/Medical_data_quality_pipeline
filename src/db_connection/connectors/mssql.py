@@ -86,6 +86,10 @@ class MsSqlDBConnection(BaseDBConnection):
         else:
             raise DatabaseConnectionError("Connection was not established to rollback")
 
+    @property
+    def placeholder(self) -> str:
+        return "?"
+
     def close(self):
         if self.cursor:
             self.cursor.close()

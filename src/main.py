@@ -12,5 +12,5 @@ db=builder.ConnectionBuilder().build(config)
 dbr=reader.DBReader(db)
 dbw=writer.DBWriter(db)
 csvl=CSVLoader(db)
-csvl.load("./data/input/diagnosis.csv","diagnosis")
+csvl.load("./data/input/vitalsign.csv","vitalsign")
 
