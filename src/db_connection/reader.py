@@ -1,14 +1,13 @@
 from db_connection.base import BaseDBConnection
-from dotenv import load_dotenv
 class DBReader:
     def __init__(self, db: BaseDBConnection):
         self.db = db
 
-    def read(self, query: str) -> list:
+    def read(self, query: str,params=None) -> list:
         result: list[dict] = []
         self.db.connect()
         try:
-            self.db.execute(query)
+            self.db.execute(query,params)
             rows: list = self.db.fetchall()
             desc: tuple[tuple] =self.db.cursor.description
             for row in rows:

@@ -21,7 +21,8 @@ def setup_logger():
 
     class InfoHandler(logging.Filter):
         def filter(self, record):
-            return record.levelno == logging.INFO
+            return record.levelno == logging.INFO or record.levelno == logging.WARNING
+
     info_handler = logging.FileHandler(
         os.path.join(logs_dir, "pipeline.log"),
         encoding="utf-8",
