@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: "{{ env_var('RAW_SCHEMA') }}"
+    tables:
+      - name: diagnosis
+      - name: triage
+      - name: vitalsign
+      - name: edstays
+      - name: medrecon
+      - name: pyxis

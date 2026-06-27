@@ -1,36 +1,47 @@
+from pandas import read_csv
+
 from quality.raw_validator import RawLoadValidator
 from src.config.logging_config import setup_logger
 from db_connection import reader, builder, writer
-from config.DbConfig import DbConfig
-from load.load_to_raw import CSVLoader
-import pandas as pd
+from config.Config import ConfigManager
+from load.load_to_raw import CSVRawLoader
 
 logger = setup_logger()
 
-config=DbConfig().get_config()
+cnfmng=ConfigManager()
+config=cnfmng.get_dbconfig()
 
 db=builder.ConnectionBuilder().build(config)
 
 dbr=reader.DBReader(db)
 dbw=writer.DBWriter(db)
-csvl=CSVLoader(db)
+
+schemas=cnfmng.schemas
+raw_csvl=CSVRawLoader(dbw,schemas["raw"])
+
+diagnosis=read_csv("./data/input/diagnosis.csv")
+edstays=read_csv("./data/input/edstays.csv")
+medrecon=read_csv("./data/input/medrecon.csv")
+pyxis=read_csv("./data/input/pyxis.csv")
+triage=read_csv("./data/input/triage.csv")
+vitalsign=read_csv("./data/input/vitalsign.csv")
 
 '''
-csvl.load("./data/input/diagnosis.csv","diagnosis")
-csvl.load("./data/input/edstays.csv","edstays")
-csvl.load("./data/input/medrecon.csv","medrecon")
-csvl.load("./data/input/pyxis.csv","pyxis")
-csvl.load("./data/input/triage.csv","triage")
-csvl.load("./data/input/vitalsign.csv","vitalsign")
+raw_csvl.build(diagnosis,"diagnosis")
+raw_csvl.build(edstays,"edstays")
+raw_csvl.build(medrecon,"medrecon")
+raw_csvl.build(pyxis,"pyxis")
+raw_csvl.build(triage,"triage")
+raw_csvl.build(vitalsign,"vitalsign")
 '''
 
-valraw=RawLoadValidator(dbr)
-valraw.validate("./data/input/diagnosis.csv","diagnosis",required_not_null_columns=['subject_id', 'stay_id', 'icd_code', 'icd_title'])
-valraw.validate("./data/input/edstays.csv","edstays",required_not_null_columns=['subject_id', 'stay_id', 'hadm_id'])
-valraw.validate("./data/input/medrecon.csv","medrecon",required_not_null_columns=['subject_id', 'stay_id'])
-valraw.validate("./data/input/pyxis.csv","pyxis",required_not_null_columns=['subject_id', 'stay_id'])
-valraw.validate("./data/input/triage.csv","triage",required_not_null_columns=['subject_id', 'stay_id'])
-valraw.validate("./data/input/vitalsign.csv","vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
+valraw=RawLoadValidator(dbr,schemas["raw"])
+valraw.validate(diagnosis,"diagnosis",required_not_null_columns=['subject_id', 'stay_id', 'icd_code', 'icd_title'])
+valraw.validate(edstays,"edstays",required_not_null_columns=['subject_id', 'stay_id', 'hadm_id'])
+valraw.validate(medrecon,"medrecon",required_not_null_columns=['subject_id', 'stay_id'])
+valraw.validate(pyxis,"pyxis",required_not_null_columns=['subject_id', 'stay_id'])
+valraw.validate(triage,"triage",required_not_null_columns=['subject_id', 'stay_id'])
+valraw.validate(vitalsign,"vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
 
 
 
