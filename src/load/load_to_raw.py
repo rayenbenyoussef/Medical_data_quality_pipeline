@@ -17,7 +17,7 @@ class CSVRawLoader:
         table_name: str = sanitize_identifier(table_name)
 
         type_map :dict = {
-            "int64": "VARCHAR(255)",
+            "int64": "BIGINT",
             "float64": "FLOAT",
             "object": "VARCHAR(255)",
             "bool": "BIT",

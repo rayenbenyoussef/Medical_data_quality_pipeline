@@ -1,0 +1,165 @@
+
+
+models:
+  - name: stg_diagnosis
+    description: "a table contains the data of each patient and his diagnosis done in the clinic."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_edstays')
+              field: stay_id
+
+      - name: diagnosis_order
+        description: "represents the order of diagnosis for multiple visits."
+
+      - name: icd_code
+        description: "the international united identifier that represents the diagnosis."
+        tests:
+          - not_null
+
+      - name: icd_version
+        description: "the version that icd diagnosis belongs to."
+
+      - name: icd_title
+        description: "the description of each icd code."
+
+  - name: stg_edstays
+    description: "a table contains the patients that visited the clinic."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: ed_arrival_time
+        description: "the time that the patient came to the clinic."
+        data_tests:
+          - not_null
+
+      - name: ed_discharge_time
+        description: "the time that patient left the clinic."
+
+      - name: gender
+        description: "gender of the patient."
+        data_tests:
+          - accepted_values:
+              values: ['F','M']
+
+      - name: race
+        description: "describes the color/origin of the patient."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['white','unknown','hispanic/latino','black/african','multiple']
+
+      - name: counrty
+        description: "describes the counrty/origin of the patient."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'cuba','europe','salvador','north-america','brazil','portugal','unknown']
+
+      - name: arrival_transport
+        description: "identifies how the patient came to the clinic."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['ambulance','walk-in','unknown']
+
+      - name: disposition
+        description: "identifies if the patient stayed in the clinic or nah."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values:
+                - 'ADMITTED'
+                - 'HOME'
+                - 'OTHER'
+                - 'LEFT AGAINST MEDICAL ADVICE'
+                - 'ELOPED'
+                - 'TRANSFER'
+                - 'LEFT WITHOUT BEING SEEN'
+
+
+  - name: stg_medrecon
+    description: "a record of medications a patient was taking at the time of their ED visit."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_edstays')
+              field: stay_id
+
+      - name: chart_time
+        description: "Timestamp when this medication reconciliation entry was documented during patient intake. Reflects when staff recorded the information."
+
+      - name: med_name
+        description: "medication name."
+
+      - name: ncd
+        description: "National Drug Code (NDC) — the FDA's official identifier for a specific drug product."
+        data_tests:
+          - not_null
+
+      - name: gsn
+        description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
+
+      - name: etc_rn
+        description: "Row differentiator for medications classified under multiple categories in the ETC (Enhanced Therapeutic Classification) ontology."
+
+      - name: etc_code
+        description: "Coded identifier for the therapeutic classification group this medication belongs to."
+        data_tests:
+          - not_null
+
+      - name: etc_description
+        description: "Human-readable description of the therapeutic classification group identified by etccode."
+
+  - name: stg_pyxis
+    description: "Medications dispensed by the automated Pyxis MedStation during each ED visit."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_edstays')
+              field: stay_id
+
+      - name: chart_time
+        description: "Timestamp when this medication was dispensed by the automated Pyxis MedStation during the ED visit."
+
+      - name: med_rn
+        description: "Sequential counter assigned by the Pyxis MedStation, incrementing with each medication dispensing event recorded for this patient's stay."
+
+      - name: gsn
+        description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
+
+  - name: stg_triage
+    description:

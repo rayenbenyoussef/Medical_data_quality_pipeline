@@ -1,0 +1,15 @@
+version: 2
+
+seeds:
+  - name: discharge_status_codes
+    description: "Reference table mapping CMS/UB-04 patient discharge status codes to their official descriptions.\nsource: https://resdac.org/cms-data/variables/patient-status"
+    columns:
+      - name: code
+        description: "Two-digit CMS discharge status code."
+        data_tests:
+          - unique
+          - not_null
+      - name: code_value
+        description: "Human-readable description of the discharge status."
+        data_tests:
+          - not_null

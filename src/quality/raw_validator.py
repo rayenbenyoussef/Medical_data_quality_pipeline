@@ -38,7 +38,7 @@ class RawLoadValidator:
                 if x not in rescol:
                     logger.warning(f"column {x} not in table {self.raw_schema}.{table_name}")
                 else:
-                    sql = f"select count(*) as cnt from {self.raw_schema}.{table_name} where {x} is null or {x} = 'NaN';"
+                    sql = f"select count(*) as cnt from {self.raw_schema}.{table_name} where {x} is null ;"
                     res:list[dict]=self.reader.read(sql)
                     if int(res[0]["cnt"])!=0:
                         logger.warning(f"\tcolumn '{x}' has {res[0]["cnt"]} null values")
