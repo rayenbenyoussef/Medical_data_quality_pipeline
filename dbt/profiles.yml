@@ -8,5 +8,5 @@ medical_data_quality_pipeline:
       user: "{{ env_var('DB_USER') }}"
       password: "{{ env_var('DB_PASSWORD') }}"
       dbname: "{{ env_var('DB_NAME') }}"
-      schema: raw_schema
+      schema: dbt
       threads: 4

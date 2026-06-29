@@ -66,12 +66,12 @@ models:
           - accepted_values:
               values: ['white','unknown','hispanic/latino','black/african','multiple']
 
-      - name: counrty
-        description: "describes the counrty/origin of the patient."
+      - name: region
+        description: "describes the region/origin of the patient."
         data_tests:
           - not_null
           - accepted_values:
-              values: [ 'cuba','europe','salvador','north-america','brazil','portugal','unknown']
+              values: [ 'europe','south-america','north-america','unknown']
 
       - name: arrival_transport
         description: "identifies how the patient came to the clinic."
@@ -86,13 +86,13 @@ models:
           - not_null
           - accepted_values:
               values:
-                - 'ADMITTED'
-                - 'HOME'
-                - 'OTHER'
-                - 'LEFT AGAINST MEDICAL ADVICE'
-                - 'ELOPED'
-                - 'TRANSFER'
-                - 'LEFT WITHOUT BEING SEEN'
+                - 'admitted'
+                - 'home'
+                - 'other'
+                - 'left against medical advice'
+                - 'eloped'
+                - 'transfer'
+                - 'left without being seen'
 
 
   - name: stg_medrecon
@@ -116,11 +116,6 @@ models:
 
       - name: med_name
         description: "medication name."
-
-      - name: ncd
-        description: "National Drug Code (NDC) — the FDA's official identifier for a specific drug product."
-        data_tests:
-          - not_null
 
       - name: gsn
         description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
@@ -162,4 +157,174 @@ models:
         description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
 
   - name: stg_triage
-    description:
+    description: "describes the first measurements and main problem that got the patient to the ed."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_edstays')
+              field: stay_id
+
+      - name: temperature
+        description: "Patient's body temperature in Celsius, recorded at triage."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 25 and 43"
+              config:
+                severity: warn
+
+      - name: heartrate
+        description: "Patient's heart rate in beats per minute, recorded at triage."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 20 and 300"
+              config:
+                severity: warn
+
+      - name: resprate
+        description: "Patient's respiratory rate in breaths per minute, recorded at triage."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 4 and 60"
+              config:
+                severity: warn
+
+      - name: o2sat
+        description: "Patient's oxygen saturation as a percentage, recorded at triage."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 50 and 100"
+              config:
+                severity: warn
+
+      - name: sbp
+        description: "Patient's systolic blood pressure (mmHg), recorded at triage."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 30 and 320"
+              config:
+                severity: warn
+
+      - name: dbp
+        description: "Patient's Diastolic blood pressure (mmHg), recorded at triage."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 10 and 200"
+              config:
+                severity: warn
+
+      - name: pain
+        description: "Patient's self-reported pain level on a 0-10 scale, recorded at triage."
+        data_tests:
+          - accepted_values:
+              values: [0,1,2,3,4,5,6,7,8,9,10]
+          - not_null:
+              config:
+                severity: warn
+
+      - name: acuity
+        description: "Patient's priority level on a 1-5 scale, recorded at triage."
+        data_tests:
+          - accepted_values:
+              values: [1,2,3,4,5]
+          - not_null:
+              config:
+                severity: warn
+
+      - name: chief_complaint
+        description: "Patient's primary reason for this ED visit, as recorded at triage."
+
+
+  - name: stg_vitalsign
+    description: "patient's vital signs recored while the visit."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('stg_edstays')
+              field: stay_id
+
+      - name: chart_time
+        description: "Timestamp when this record was documented during patient visit. Reflects when staff recorded the information."
+
+      - name: temperature
+        description: "Patient's body temperature in Celsius, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 25 and 43"
+              config:
+                severity: warn
+
+      - name: heartrate
+        description: "Patient's heart rate in beats per minute, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 20 and 300"
+              config:
+                severity: warn
+
+      - name: resprate
+        description: "Patient's respiratory rate in breaths per minute, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 4 and 60"
+              config:
+                severity: warn
+
+      - name: o2sat
+        description: "Patient's oxygen saturation as a percentage, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 50 and 100"
+              config:
+                severity: warn
+
+      - name: sbp
+        description: "Patient's systolic blood pressure (mmHg), recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 30 and 320"
+              config:
+                severity: warn
+
+      - name: dbp
+        description: "Patient's Diastolic blood pressure (mmHg), recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 10 and 200"
+              config:
+                severity: warn
+
+      - name: rythem
+        description: "types of cardiac rhythm recorded from the ECG."
+        data_tests:
+          - accepted_values:
+              values:
+                - "Atrial Fibrillation"
+                - "Sinus Rhythm"
+                - "Paced Rhythm"
+                - "Sinus Bradycardia"
+                - "Sinus Tachycardia"
+
+      - name: pain
+        description: "Patient's self-reported pain level on a 0-10 scale, recorded at visit."
+        data_tests:
+          - accepted_values:
+              values: [ 0,1,2,3,4,5,6,7,8,9,10 ]
+          - not_null:
+              config:
+                severity: warn
