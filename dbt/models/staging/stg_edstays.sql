@@ -8,7 +8,7 @@ select
     {{ extract_region('race') }} as region,
     CASE
         WHEN arrival_transport LIKE '%AMBULANCE%' THEN 'ambulance'
-        WHEN arrival_transport LIKE '%WALK IN%' THEN 'walk_in'
+        WHEN arrival_transport LIKE '%WALK IN%' THEN 'walk-in'
         ELSE 'unknown'
     END as arrival_transport,
     LOWER(disposition) as disposition

@@ -18,7 +18,7 @@ models:
               field: stay_id
 
       - name: diagnosis_order
-        description: "represents the order of diagnosis for multiple visits."
+        description: "represents the order/rank of diagnosis for multiple visits."
 
       - name: icd_code
         description: "the international united identifier that represents the diagnosis."
@@ -114,13 +114,13 @@ models:
       - name: chart_time
         description: "Timestamp when this medication reconciliation entry was documented during patient intake. Reflects when staff recorded the information."
 
-      - name: med_name
-        description: "medication name."
+      - name: medication_name
+        description: "medication name entred by the staff."
 
-      - name: gsn
+      - name: gs_num
         description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
 
-      - name: etc_rn
+      - name: etc_row_num
         description: "Row differentiator for medications classified under multiple categories in the ETC (Enhanced Therapeutic Classification) ontology."
 
       - name: etc_code
@@ -150,7 +150,7 @@ models:
       - name: chart_time
         description: "Timestamp when this medication was dispensed by the automated Pyxis MedStation during the ED visit."
 
-      - name: med_rn
+      - name: med_row_num
         description: "Sequential counter assigned by the Pyxis MedStation, incrementing with each medication dispensing event recorded for this patient's stay."
 
       - name: gsn
@@ -180,7 +180,7 @@ models:
               config:
                 severity: warn
 
-      - name: heartrate
+      - name: heart_rate
         description: "Patient's heart rate in beats per minute, recorded at triage."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -188,7 +188,7 @@ models:
               config:
                 severity: warn
 
-      - name: resprate
+      - name: resp_rate
         description: "Patient's respiratory rate in breaths per minute, recorded at triage."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -196,7 +196,7 @@ models:
               config:
                 severity: warn
 
-      - name: o2sat
+      - name: o2_saturation
         description: "Patient's oxygen saturation as a percentage, recorded at triage."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -204,7 +204,7 @@ models:
               config:
                 severity: warn
 
-      - name: sbp
+      - name: systolic_bp
         description: "Patient's systolic blood pressure (mmHg), recorded at triage."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -212,7 +212,7 @@ models:
               config:
                 severity: warn
 
-      - name: dbp
+      - name: diastolic_bp
         description: "Patient's Diastolic blood pressure (mmHg), recorded at triage."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -220,7 +220,7 @@ models:
               config:
                 severity: warn
 
-      - name: pain
+      - name: pain_level
         description: "Patient's self-reported pain level on a 0-10 scale, recorded at triage."
         data_tests:
           - accepted_values:
@@ -229,7 +229,7 @@ models:
               config:
                 severity: warn
 
-      - name: acuity
+      - name: acuity_level
         description: "Patient's priority level on a 1-5 scale, recorded at triage."
         data_tests:
           - accepted_values:
@@ -269,7 +269,7 @@ models:
               config:
                 severity: warn
 
-      - name: heartrate
+      - name: heart_rate
         description: "Patient's heart rate in beats per minute, recorded at visit."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -277,7 +277,7 @@ models:
               config:
                 severity: warn
 
-      - name: resprate
+      - name: resp_rate
         description: "Patient's respiratory rate in breaths per minute, recorded at visit."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -285,7 +285,7 @@ models:
               config:
                 severity: warn
 
-      - name: o2sat
+      - name: o2_saturation
         description: "Patient's oxygen saturation as a percentage, recorded at visit."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -293,7 +293,7 @@ models:
               config:
                 severity: warn
 
-      - name: sbp
+      - name: systolic_bp
         description: "Patient's systolic blood pressure (mmHg), recorded at visit."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -301,7 +301,7 @@ models:
               config:
                 severity: warn
 
-      - name: dbp
+      - name: diastolic_bp
         description: "Patient's Diastolic blood pressure (mmHg), recorded at visit."
         data_tests:
           - dbt_utils.expression_is_true:
@@ -309,8 +309,8 @@ models:
               config:
                 severity: warn
 
-      - name: rythem
-        description: "types of cardiac rhythm recorded from the ECG."
+      - name: card_rhythm
+        description: "Cardiac rhythm recorded from the ECG."
         data_tests:
           - accepted_values:
               values:
@@ -320,7 +320,7 @@ models:
                 - "Sinus Bradycardia"
                 - "Sinus Tachycardia"
 
-      - name: pain
+      - name: pain_level
         description: "Patient's self-reported pain level on a 0-10 scale, recorded at visit."
         data_tests:
           - accepted_values:

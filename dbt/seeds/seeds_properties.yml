@@ -13,3 +13,4 @@ seeds:
         description: "Human-readable description of the discharge status."
         data_tests:
           - not_null
+

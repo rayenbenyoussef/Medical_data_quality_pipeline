@@ -17,3 +17,4 @@ models:
     marts:
       +materialized: table
       schema: "{{ env_var('MRT_SCHEMA') }}"
+
