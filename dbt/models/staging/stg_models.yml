@@ -115,7 +115,10 @@ models:
         description: "Timestamp when this medication reconciliation entry was documented during patient intake. Reflects when staff recorded the information."
 
       - name: medication_name
-        description: "medication name entred by the staff."
+        description: "medication name entered by the staff."
+
+      - name: ndc
+        description: "FDA medication identifier."
 
       - name: gs_num
         description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
@@ -153,8 +156,12 @@ models:
       - name: med_row_num
         description: "Sequential counter assigned by the Pyxis MedStation, incrementing with each medication dispensing event recorded for this patient's stay."
 
+      - name: medication_name
+        description: "medication name."
+
       - name: gsn
         description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
+
 
   - name: stg_triage
     description: "describes the first measurements and main problem that got the patient to the ed."

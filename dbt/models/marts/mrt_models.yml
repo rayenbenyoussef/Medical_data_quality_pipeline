@@ -1,0 +1,117 @@
+
+
+models:
+  - name: dim_patients
+    description: "contains patients and there personal data."
+    columns:
+      - name: patient_id
+        description: "the identifier of patients in the clinic."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: gender
+        description: "gender of the patient."
+        data_tests:
+          - accepted_values:
+              values: ['F','M' ]
+
+      - name: race
+        description: "describes the color/origin of the patient."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'white','unknown','hispanic/latino','black/african','multiple' ]
+
+      - name: region
+        description: "describes the region/origin of the patient."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'europe','south-america','north-america','unknown' ]
+
+
+  - name: dim_date
+    description: "Date dimension providing one row per calendar date, with derived attributes for time-based reporting and filtering."
+    columns:
+      - name: date_id
+        description: "the identifier of each date."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: full_date
+        description: "The calendar date this row represents, in YYYY-MM-DD  format."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: weekday_name
+        description: "Day of the week (e.g. 'Monday', 'Tuesday'), derived from full_date."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+      - name: month_name
+        description: "Month name (e.g. 'January', 'February'), derived from full_date."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+      - name: date_year
+        description: "Calendar year, derived from full_date."
+        data_tests:
+          - not_null
+
+      - name: date_season
+        description: "Meteorological season (e.g. 'Winter', 'Spring'), derived from month."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: [ 'Winter', 'Spring', 'Summer', 'Fall' ]
+
+
+  - name: dim_medications
+    description: >
+      One row per unique (medication_name, gs_num) combination, sourced from
+      both medrecon (pre-visit medications) and pyxis (dispensed medications).
+      Note: the same gs_num can map to multiple medication names, as GSN codes
+      represent generic drug categories that may include multiple branded products
+      (e.g. FreeStyle vs OneTouch blood glucose strips sharing the same GSN).
+      Use both medication_name and gs_num together as the composite key when
+      joining to fact tables.
+    columns:
+      - name: med_id
+        description: "the identifier of the medication."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: medication_name
+        description: "the medication name from the saved data."
+        data_tests:
+          - not_null
+
+      - name: gs_num
+        description: "Generic Sequence Number (GSN) — a proprietary drug identifier assigned by First DataBank."
+
+      - name: ndc
+        description: "FDA medication identifier."
+
+      - name: etc_code
+        description: "Coded identifier for the therapeutic classification group this medication belongs to."
+
+
+  - name: dim_etc_classification
+    description: "the therapeutic classification group codes with the description."
+    columns:
+      - name: etc_code
+        description: "Coded identifier for the therapeutic classification group."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: etc_description
+        description: "Human-readable description of the therapeutic classification group identified by etccode."
