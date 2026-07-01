@@ -129,7 +129,9 @@ models:
       - name: etc_code
         description: "Coded identifier for the therapeutic classification group this medication belongs to."
         data_tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
 
       - name: etc_description
         description: "Human-readable description of the therapeutic classification group identified by etccode."

@@ -7,15 +7,14 @@ WITH date_spine AS (
 )
 
 SELECT
-    ROW_NUMBER() OVER (ORDER BY date_day)::INT AS date_id,
     date_day::DATE AS full_date,
-    TO_CHAR(date_day, 'Day') AS weekday_name,
-    TO_CHAR(date_day, 'Month') AS month_name,
+    TRIM(LOWER(TO_CHAR(date_day, 'Day'))) AS weekday_name,
+    TRIM(LOWER(TO_CHAR(date_day, 'Month'))) AS month_name,
     EXTRACT(YEAR FROM date_day) AS date_year,
     CASE
-        WHEN EXTRACT(MONTH FROM date_day) IN (12, 1, 2) THEN 'Winter'
-        WHEN EXTRACT(MONTH FROM date_day) IN (3, 4, 5) THEN 'Spring'
-        WHEN EXTRACT(MONTH FROM date_day) IN (6, 7, 8) THEN 'Summer'
-        ELSE 'Fall'
+        WHEN EXTRACT(MONTH FROM date_day) IN (12, 1, 2) THEN 'winter'
+        WHEN EXTRACT(MONTH FROM date_day) IN (3, 4, 5) THEN 'spring'
+        WHEN EXTRACT(MONTH FROM date_day) IN (6, 7, 8) THEN 'summer'
+        ELSE 'fall'
     END AS date_season
 FROM date_spine

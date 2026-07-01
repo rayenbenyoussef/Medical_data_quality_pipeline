@@ -17,7 +17,7 @@ WITH combined_medications AS (
 )
 
 SELECT
-    ROW_NUMBER() OVER (ORDER BY medication_name, gs_num) AS med_id,
+    ROW_NUMBER() OVER (ORDER BY medication_name, gs_num)::INT AS med_id,
     medication_name,
     gs_num,
     MAX(ndc) AS ndc,
