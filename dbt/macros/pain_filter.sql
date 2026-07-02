@@ -10,3 +10,19 @@
         ELSE {{ column_name }}
     END
 {% endmacro %}
+
+{% macro patient_status(column_name) %}
+    CASE
+        WHEN {{ column_name }} IN ('intubated','ett','sedated','Critical')
+            THEN 'unable-to-assess'
+        WHEN {{ column_name }} IN ('denies','uncooperative')
+            THEN 'declined'
+        WHEN {{ column_name }} IN ('Asleep','asleep','sleeping','sleep','sleep ',
+                                    'sleepin','laying down','sitting ','standing ')
+            THEN 'asleep-or-resting'
+        WHEN {{ column_name }} IN ('uta','UTA','unable','Unable','u','UA','ua',
+                                    'does not scale','NAD','13')
+            THEN 'not-assessed'
+        ELSE NULL
+    END
+{% endmacro %}

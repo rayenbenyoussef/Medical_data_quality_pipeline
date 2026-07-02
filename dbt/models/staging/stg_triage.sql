@@ -8,6 +8,7 @@ select
     sbp as systolic_bp,
     dbp as diastolic_bp,
     {{ pain_filter('pain') }}::INT as pain_level,
+    {{ patient_status('pain') }} as patient_status,
     acuity::INT as acuity_level,
     chiefcomplaint as chief_complaint
 from {{ source('raw','triage') }}

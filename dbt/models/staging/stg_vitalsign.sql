@@ -1,6 +1,7 @@
 select
     subject_id::INT as patient_id,
     stay_id::INT,
+    charttime as chart_time,
     {{ fahr_to_celsius('temperature') }} as temperature,
     heartrate as heart_rate,
     resprate as resp_rate,
@@ -12,5 +13,6 @@ select
         WHEN rhythm IN ('Atrial Fibrillation', 'afib') THEN 'Atrial Fibrillation'
         ELSE rhythm
     END AS card_rhythm,
-    {{ pain_filter('pain') }}::INT as pain_level
+    {{ pain_filter('pain') }}::INT as pain_level,
+    {{ patient_status('pain') }} as patient_status
 from {{ source('raw','vitalsign') }}

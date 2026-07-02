@@ -13,6 +13,7 @@ models:
       - name: gender
         description: "gender of the patient."
         data_tests:
+          - not_null
           - accepted_values:
               values: ['F','M' ]
 
@@ -151,6 +152,43 @@ models:
               values: [ 'Business-Hours', 'Off-Hours' ]
 
 
+  - name: dim_chiefcomplaint
+    description: "describes the main reasons that can be possible for an ed visit"
+    columns:
+      - name: complaint_id
+        description: "the identifier of the complaint."
+        data_tests:
+          - unique
+          - not_null
+
+      - name: chief_complaint
+        description: "the human readable complaint."
+        data_tests:
+          - not_null
+          - unique
+
+      - name: complaint_category
+        description: "the category where the complaint is under."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values:
+                - 'Abdominal'
+                - 'Cardiac'
+                - 'Respiratory'
+                - 'Neurological'
+                - 'Trauma'
+                - 'Psychiatric'
+                - 'Infectious'
+                - 'Metabolic'
+                - 'GI'
+                - 'Musculoskeletal'
+                - 'Urological'
+                - 'Vascular'
+                - 'Transfer'
+                - 'Other'
+
+
   - name: fct_ed_visits
     description: "contains the vistis to ed by the patients."
     columns:
@@ -229,6 +267,93 @@ models:
                 - 'eloped'
                 - 'transfer'
                 - 'left without being seen'
+
+      - name: temperature
+        description: "Patient's body temperature in Celsius, recorded at triage visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 25 and 43"
+              config:
+                severity: warn
+
+      - name: heart_rate
+        description: "Patient's heart rate in beats per minute, recorded at triage visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 20 and 300"
+              config:
+                severity: warn
+
+      - name: resp_rate
+        description: "Patient's respiratory rate in breaths per minute, recorded at triage visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 4 and 60"
+              config:
+                severity: warn
+
+      - name: o2_saturation
+        description: "Patient's oxygen saturation as a percentage, recorded at triage visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 50 and 100"
+              config:
+                severity: warn
+
+      - name: systolic_bp
+        description: "Patient's systolic blood pressure (mmHg), recorded at triage visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 30 and 320"
+              config:
+                severity: warn
+
+      - name: diastolic_bp
+        description: "Patient's Diastolic blood pressure (mmHg), recorded at triage visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 10 and 200"
+              config:
+                severity: warn
+
+      - name: pain_level
+        description: "Patient's self-reported pain level on a 0-10 scale, recorded at triage visit."
+        data_tests:
+          - accepted_values:
+              values: [ 0,1,2,3,4,5,6,7,8,9,10 ]
+          - not_null:
+              config:
+                severity: warn
+
+      - name: patient_status
+        description: "describes the current patient status after the triage measurement."
+        data_tests:
+          - accepted_values:
+              values:
+                - 'unable-to-assess'
+                - 'declined'
+                - 'asleep-or-resting'
+                - 'not-assessed'
+
+
+  - name: bridge_triage_complaints
+    description: "contains the main reasons why each patient came to the ed."
+    columns:
+      - name: stay_id
+        description: "the visit id where the diagnosis discovered."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('fct_ed_visits')
+              field: stay_id
+
+      - name: complaint_id
+        description: "the identifier of the complaint."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('dim_chiefcomplaint')
+              field: complaint_id
 
 
   - name: dim_icd_classification
@@ -344,7 +469,7 @@ models:
               field: stay_id
 
       - name: recording_date
-        description: "the date that the medication dispensed from the machine."
+        description: "The date this medication reconciliation was documented during patient intake."
         data_tests:
           - not_null
           - relationships:
@@ -352,7 +477,7 @@ models:
               field: full_date
 
       - name: recording_hour
-        description: "the hout (hh:mm) that the medication dispensed from the machine."
+        description: "The hour this medication reconciliation was documented during patient intake."
         data_tests:
           - not_null
           - relationships:
@@ -367,4 +492,97 @@ models:
               to: ref('dim_medications')
               field: med_id
 
-  - name:
+
+  - name: fct_vitalsigns
+    description: "patient's vital signs recored while the visit."
+    columns:
+      - name: stay_id
+        description: "the identifier of the stay of the patient."
+        data_tests:
+          - not_null
+          - relationships:
+              to: ref('fct_ed_visits')
+              field: stay_id
+
+      - name: chart_time
+        description: "Timestamp when this record was documented during patient visit. Reflects when staff recorded the information."
+
+      - name: temperature
+        description: "Patient's body temperature in Celsius, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 25 and 43"
+              config:
+                severity: warn
+
+      - name: heart_rate
+        description: "Patient's heart rate in beats per minute, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 20 and 300"
+              config:
+                severity: warn
+
+      - name: resp_rate
+        description: "Patient's respiratory rate in breaths per minute, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 4 and 60"
+              config:
+                severity: warn
+
+      - name: o2_saturation
+        description: "Patient's oxygen saturation as a percentage, recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 50 and 100"
+              config:
+                severity: warn
+
+      - name: systolic_bp
+        description: "Patient's systolic blood pressure (mmHg), recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 30 and 320"
+              config:
+                severity: warn
+
+      - name: diastolic_bp
+        description: "Patient's Diastolic blood pressure (mmHg), recorded at visit."
+        data_tests:
+          - dbt_utils.expression_is_true:
+              expression: "between 10 and 200"
+              config:
+                severity: warn
+
+      - name: card_rhythm
+        description: "Cardiac rhythm recorded from the ECG."
+        data_tests:
+          - accepted_values:
+              values:
+                - "Atrial Fibrillation"
+                - "Sinus Rhythm"
+                - "Paced Rhythm"
+                - "Sinus Bradycardia"
+                - "Sinus Tachycardia"
+
+      - name: pain_level
+        description: "Patient's self-reported pain level on a 0-10 scale, recorded at visit."
+        data_tests:
+          - accepted_values:
+              values: [ 0,1,2,3,4,5,6,7,8,9,10 ]
+              config:
+                where: "pain_level is not null"
+          - not_null:
+              config:
+                severity: warn
+
+      - name: patient_status
+        description: "describes the current patient status after the measurement."
+        data_tests:
+          - accepted_values:
+              values:
+                - 'unable-to-assess'
+                - 'declined'
+                - 'asleep-or-resting'
+                - 'not-assessed'
