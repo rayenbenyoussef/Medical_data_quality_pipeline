@@ -20,7 +20,7 @@ class CSVRawLoader:
                 if f'schema "{self.raw_schema}" already exists' not in str(e):
                     raise
 
-    def build(self, csvraw: DataFrame, table_name: str):
+    def build(self, csvraw: DataFrame, table_name: str,rewrite_table=False):
 
         table_name: str = sanitize_identifier(table_name)
 
@@ -39,6 +39,9 @@ class CSVRawLoader:
             columns_sql.append(f"{safe_col} {sql_type}")
 
         columns_part:str = ", ".join(columns_sql)
+        if rewrite_table:
+            self.writer.write(f"DROP TABLE IF EXISTS {self.raw_schema}.{table_name} CASCADE;")
+
         sql:str = f"CREATE TABLE {self.raw_schema}.{table_name} ({columns_part});"
         logger.info(f"creating table {self.raw_schema}.{table_name}.")
         try:

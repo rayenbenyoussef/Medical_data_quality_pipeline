@@ -1,5 +1,5 @@
 from pandas import read_csv
-
+import subprocess
 from extract.fetch_data import MartExtractor
 from quality.mart_validator import MartValidator
 from quality.raw_validator import RawLoadValidator
@@ -10,57 +10,72 @@ from load.load_to_raw import CSVRawLoader
 
 logger = setup_logger()
 
-cnfmng=ConfigManager()
-config=cnfmng.get_dbconfig()
+def run_pipeline():
 
-db=builder.ConnectionBuilder().build(config)
+    # 1) initialization of the database
+    cnfmng=ConfigManager()
+    config=cnfmng.get_dbconfig()
+    db=builder.ConnectionBuilder().build(config)
+    dbr=reader.DBReader(db)
+    dbw=writer.DBWriter(db)
+    schemas=cnfmng.schemas
 
-dbr=reader.DBReader(db)
-dbw=writer.DBWriter(db)
+    # 2) initialization of the raw data loaders
+    raw_loader=CSVRawLoader(dbw,schemas["raw"],rewrite_schema=False)
 
-schemas=cnfmng.schemas
-raw_csvl=CSVRawLoader(dbw,schemas["raw"],rewrite_schema=False)
+    diagnosis=read_csv("./data/input/diagnosis.csv")
+    edstays=read_csv("./data/input/edstays.csv")
+    medrecon=read_csv("./data/input/medrecon.csv")
+    pyxis=read_csv("./data/input/pyxis.csv")
+    triage=read_csv("./data/input/triage.csv")
+    vitalsign=read_csv("./data/input/vitalsign.csv")
 
-diagnosis=read_csv("./data/input/diagnosis.csv")
-edstays=read_csv("./data/input/edstays.csv")
-medrecon=read_csv("./data/input/medrecon.csv")
-pyxis=read_csv("./data/input/pyxis.csv")
-triage=read_csv("./data/input/triage.csv")
-vitalsign=read_csv("./data/input/vitalsign.csv")
 
-'''
-raw_csvl.build(diagnosis,"diagnosis")
-raw_csvl.build(edstays,"edstays")
-raw_csvl.build(medrecon,"medrecon")
-raw_csvl.build(pyxis,"pyxis")
-raw_csvl.build(triage,"triage")
-raw_csvl.build(vitalsign,"vitalsign")
-'''
+    # 3) building the structure and loading the data
+    raw_loader.build(diagnosis,"diagnosis",rewrite_table=True)
+    raw_loader.build(edstays,"edstays",rewrite_table=True)
+    raw_loader.build(medrecon,"medrecon",rewrite_table=True)
+    raw_loader.build(pyxis,"pyxis",rewrite_table=True)
+    raw_loader.build(triage,"triage",rewrite_table=True)
+    raw_loader.build(vitalsign,"vitalsign",rewrite_table=True)
 
-valraw=RawLoadValidator(dbr,schemas["raw"])
-valraw.validate(diagnosis,"diagnosis",required_not_null_columns=['subject_id', 'stay_id', 'icd_code', 'icd_title'])
-valraw.validate(edstays,"edstays",required_not_null_columns=['subject_id', 'stay_id', 'hadm_id'])
-valraw.validate(medrecon,"medrecon",required_not_null_columns=['subject_id', 'stay_id'])
-valraw.validate(pyxis,"pyxis",required_not_null_columns=['subject_id', 'stay_id'])
-valraw.validate(triage,"triage",required_not_null_columns=['subject_id', 'stay_id'])
-valraw.validate(vitalsign,"vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
 
-ex=MartExtractor(dbr,schemas["mrt"])
-exv=MartValidator()
+    # 4) validating the loaded raw data
+    raw_validator=RawLoadValidator(dbr,schemas["raw"])
 
-df=ex.get_ed_visits()
-print(exv.validate_ed_visits(df))
+    raw_validator.validate(diagnosis,"diagnosis",required_not_null_columns=['subject_id', 'stay_id', 'icd_code', 'icd_title'])
+    raw_validator.validate(edstays,"edstays",required_not_null_columns=['subject_id', 'stay_id', 'hadm_id'])
+    raw_validator.validate(medrecon,"medrecon",required_not_null_columns=['subject_id', 'stay_id'])
+    raw_validator.validate(pyxis,"pyxis",required_not_null_columns=['subject_id', 'stay_id'])
+    raw_validator.validate(triage,"triage",required_not_null_columns=['subject_id', 'stay_id'])
+    raw_validator.validate(vitalsign,"vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
 
-df=ex.get_patients()
-print(exv.validate_patients(df))
 
-df=ex.get_vitalsigns()
-print(exv.validate_vitalsigns(df))
+    # 4) run dbt (staging + marts)
 
-df=ex.get_medrecon()
-print(exv.validate_medrecon(df))
+    subprocess.run(["dbt", "run"], cwd="./dbt", check=True)
+    subprocess.run(["dbt", "test"], cwd="./dbt", check=True)
 
-df=ex.get_pyxis()
-print(exv.validate_pyxis(df))
 
+    # 5) extracting marts tables
+    extractor=MartExtractor(dbr,schemas["mrt"])
+
+    ed_visits=extractor.get_ed_visits()
+    patients=extractor.get_patients()
+    vitalsigns=extractor.get_vitalsigns()
+    medrecon=extractor.get_medrecon()
+    pyxis=extractor.get_pyxis()
+
+
+    # 6) validating the extracted data
+    extractor_validator=MartValidator()
+
+    print(f"is table ed_visits valid ?: {extractor_validator.validate_ed_visits(ed_visits)}")
+    print(f"is table patients valid ?: {extractor_validator.validate_patients(patients)}")
+    print(f"is table vitalsigns valid ?: {extractor_validator.validate_vitalsigns(vitalsigns)}")
+    print(f"is table medrecon valid ?: {extractor_validator.validate_medrecon(medrecon)}")
+    print(f"is pyxis valid ?: {extractor_validator.validate_pyxis(pyxis)}")
+
+if __name__ == "__main__":
+    run_pipeline()
 

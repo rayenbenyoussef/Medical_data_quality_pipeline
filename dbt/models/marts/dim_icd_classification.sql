@@ -3,7 +3,7 @@ with raw_icd_unique_values as (
         icd_code,
         icd_version,
         icd_title
-    FROM dbt_stg.stg_diagnosis
+    FROM {{ ref('stg_diagnosis') }}
 )
 
 select
