@@ -1,0 +1,144 @@
+[INFO:20] 2026-07-03 21:41:58,110 - table 'raw.diagnosis' has no missing rows
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 25
+
+[INFO:20] 2026-07-03 21:41:58,149 - table 'raw.diagnosis' has no missing columns
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 32
+
+[INFO:20] 2026-07-03 21:41:58,149 - checking subject_id, stay_id, icd_code, icd_title' of 'raw.diagnosis' for nulls.
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 35
+
+[INFO:20] 2026-07-03 21:41:58,177 - 	column 'subject_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:58,336 - 	column 'stay_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:58,367 - 	column 'icd_code' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:58,397 - 	column 'icd_title' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:58,558 - table 'raw.edstays' has no missing rows
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 25
+
+[INFO:20] 2026-07-03 21:41:58,602 - table 'raw.edstays' has no missing columns
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 32
+
+[INFO:20] 2026-07-03 21:41:58,602 - checking subject_id, stay_id, hadm_id' of 'raw.edstays' for nulls.
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 35
+
+[INFO:20] 2026-07-03 21:41:58,633 - 	column 'subject_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:58,676 - 	column 'stay_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[WARNING:30] 2026-07-03 21:41:58,710 - 	column 'hadm_id' has 50 null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 44
+
+[INFO:20] 2026-07-03 21:41:58,846 - table 'raw.medrecon' has no missing rows
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 25
+
+[INFO:20] 2026-07-03 21:41:58,892 - table 'raw.medrecon' has no missing columns
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 32
+
+[INFO:20] 2026-07-03 21:41:58,892 - checking subject_id, stay_id' of 'raw.medrecon' for nulls.
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 35
+
+[INFO:20] 2026-07-03 21:41:58,936 - 	column 'subject_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:58,988 - 	column 'stay_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,037 - table 'raw.pyxis' has no missing rows
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 25
+
+[INFO:20] 2026-07-03 21:41:59,079 - table 'raw.pyxis' has no missing columns
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 32
+
+[INFO:20] 2026-07-03 21:41:59,079 - checking subject_id, stay_id' of 'raw.pyxis' for nulls.
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 35
+
+[INFO:20] 2026-07-03 21:41:59,231 - 	column 'subject_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,275 - 	column 'stay_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,310 - table 'raw.triage' has no missing rows
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 25
+
+[INFO:20] 2026-07-03 21:41:59,468 - table 'raw.triage' has no missing columns
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 32
+
+[INFO:20] 2026-07-03 21:41:59,468 - checking subject_id, stay_id' of 'raw.triage' for nulls.
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 35
+
+[INFO:20] 2026-07-03 21:41:59,520 - 	column 'subject_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,569 - 	column 'stay_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,612 - table 'raw.vitalsign' has no missing rows
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 25
+
+[INFO:20] 2026-07-03 21:41:59,662 - table 'raw.vitalsign' has no missing columns
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 32
+
+[INFO:20] 2026-07-03 21:41:59,662 - checking subject_id, stay_id' of 'raw.vitalsign' for nulls.
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 35
+
+[INFO:20] 2026-07-03 21:41:59,698 - 	column 'subject_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,732 - 	column 'stay_id' has no null values
+F:\code\medical-data-quality-pipeline\src\quality\raw_validator.py - validate - 46
+
+[INFO:20] 2026-07-03 21:41:59,732 - Extracting data from fct_ed_visits ...
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 19
+
+[INFO:20] 2026-07-03 21:41:59,766 - extracted 222 rows from fct_ed_visits.
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
+
+[INFO:20] 2026-07-03 21:41:59,804 - fct_ed_visits passed.
+F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_ed_visits - 12
+
+[INFO:20] 2026-07-03 21:41:59,804 - Extracting data from dim_patients ...
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 19
+
+[INFO:20] 2026-07-03 21:41:59,837 - extracted 64 rows from dim_patients.
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
+
+[INFO:20] 2026-07-03 21:41:59,844 - dim_patients passed.
+F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_patients - 21
+
+[INFO:20] 2026-07-03 21:41:59,844 - Extracting data from fct_vitalsigns ...
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 19
+
+[INFO:20] 2026-07-03 21:41:59,983 - extracted 1037 rows from fct_vitalsigns.
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
+
+[INFO:20] 2026-07-03 21:41:59,999 - fct_vitalsigns passed.
+F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_vitalsigns - 30
+
+[INFO:20] 2026-07-03 21:41:59,999 - Extracting data from fct_medrecon ...
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 19
+
+[INFO:20] 2026-07-03 21:42:00,074 - extracted 2762 rows from fct_medrecon.
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
+
+[INFO:20] 2026-07-03 21:42:00,082 - fct_medrecon passed.
+F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_medrecon - 48
+
+[INFO:20] 2026-07-03 21:42:00,082 - Extracting data from fct_pyxis ...
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 19
+
+[INFO:20] 2026-07-03 21:42:00,245 - extracted 1050 rows from fct_pyxis.
+F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
+
+[INFO:20] 2026-07-03 21:42:00,255 - fct_pyxis passed.
+F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_pyxis - 57
+

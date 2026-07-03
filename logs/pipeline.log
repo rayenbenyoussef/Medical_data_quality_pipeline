@@ -1,0 +1,48 @@
+2026-07-03 21:41:58,110 - INFO - table 'raw.diagnosis' has no missing rows
+2026-07-03 21:41:58,149 - INFO - table 'raw.diagnosis' has no missing columns
+2026-07-03 21:41:58,149 - INFO - checking subject_id, stay_id, icd_code, icd_title' of 'raw.diagnosis' for nulls.
+2026-07-03 21:41:58,177 - INFO - 	column 'subject_id' has no null values
+2026-07-03 21:41:58,336 - INFO - 	column 'stay_id' has no null values
+2026-07-03 21:41:58,367 - INFO - 	column 'icd_code' has no null values
+2026-07-03 21:41:58,397 - INFO - 	column 'icd_title' has no null values
+2026-07-03 21:41:58,558 - INFO - table 'raw.edstays' has no missing rows
+2026-07-03 21:41:58,602 - INFO - table 'raw.edstays' has no missing columns
+2026-07-03 21:41:58,602 - INFO - checking subject_id, stay_id, hadm_id' of 'raw.edstays' for nulls.
+2026-07-03 21:41:58,633 - INFO - 	column 'subject_id' has no null values
+2026-07-03 21:41:58,676 - INFO - 	column 'stay_id' has no null values
+2026-07-03 21:41:58,710 - WARNING - 	column 'hadm_id' has 50 null values
+2026-07-03 21:41:58,846 - INFO - table 'raw.medrecon' has no missing rows
+2026-07-03 21:41:58,892 - INFO - table 'raw.medrecon' has no missing columns
+2026-07-03 21:41:58,892 - INFO - checking subject_id, stay_id' of 'raw.medrecon' for nulls.
+2026-07-03 21:41:58,936 - INFO - 	column 'subject_id' has no null values
+2026-07-03 21:41:58,988 - INFO - 	column 'stay_id' has no null values
+2026-07-03 21:41:59,037 - INFO - table 'raw.pyxis' has no missing rows
+2026-07-03 21:41:59,079 - INFO - table 'raw.pyxis' has no missing columns
+2026-07-03 21:41:59,079 - INFO - checking subject_id, stay_id' of 'raw.pyxis' for nulls.
+2026-07-03 21:41:59,231 - INFO - 	column 'subject_id' has no null values
+2026-07-03 21:41:59,275 - INFO - 	column 'stay_id' has no null values
+2026-07-03 21:41:59,310 - INFO - table 'raw.triage' has no missing rows
+2026-07-03 21:41:59,468 - INFO - table 'raw.triage' has no missing columns
+2026-07-03 21:41:59,468 - INFO - checking subject_id, stay_id' of 'raw.triage' for nulls.
+2026-07-03 21:41:59,520 - INFO - 	column 'subject_id' has no null values
+2026-07-03 21:41:59,569 - INFO - 	column 'stay_id' has no null values
+2026-07-03 21:41:59,612 - INFO - table 'raw.vitalsign' has no missing rows
+2026-07-03 21:41:59,662 - INFO - table 'raw.vitalsign' has no missing columns
+2026-07-03 21:41:59,662 - INFO - checking subject_id, stay_id' of 'raw.vitalsign' for nulls.
+2026-07-03 21:41:59,698 - INFO - 	column 'subject_id' has no null values
+2026-07-03 21:41:59,732 - INFO - 	column 'stay_id' has no null values
+2026-07-03 21:41:59,732 - INFO - Extracting data from fct_ed_visits ...
+2026-07-03 21:41:59,766 - INFO - extracted 222 rows from fct_ed_visits.
+2026-07-03 21:41:59,804 - INFO - fct_ed_visits passed.
+2026-07-03 21:41:59,804 - INFO - Extracting data from dim_patients ...
+2026-07-03 21:41:59,837 - INFO - extracted 64 rows from dim_patients.
+2026-07-03 21:41:59,844 - INFO - dim_patients passed.
+2026-07-03 21:41:59,844 - INFO - Extracting data from fct_vitalsigns ...
+2026-07-03 21:41:59,983 - INFO - extracted 1037 rows from fct_vitalsigns.
+2026-07-03 21:41:59,999 - INFO - fct_vitalsigns passed.
+2026-07-03 21:41:59,999 - INFO - Extracting data from fct_medrecon ...
+2026-07-03 21:42:00,074 - INFO - extracted 2762 rows from fct_medrecon.
+2026-07-03 21:42:00,082 - INFO - fct_medrecon passed.
+2026-07-03 21:42:00,082 - INFO - Extracting data from fct_pyxis ...
+2026-07-03 21:42:00,245 - INFO - extracted 1050 rows from fct_pyxis.
+2026-07-03 21:42:00,255 - INFO - fct_pyxis passed.

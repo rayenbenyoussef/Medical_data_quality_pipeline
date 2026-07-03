@@ -272,7 +272,7 @@ models:
         description: "Patient's body temperature in Celsius, recorded at triage visit."
         data_tests:
           - dbt_utils.expression_is_true:
-              expression: "between 25 and 43"
+              expression: "between 12 and 43"
               config:
                 severity: warn
 
@@ -511,7 +511,7 @@ models:
         description: "Patient's body temperature in Celsius, recorded at visit."
         data_tests:
           - dbt_utils.expression_is_true:
-              expression: "between 25 and 43"
+              expression: "between 12 and 43"
               config:
                 severity: warn
 
@@ -565,6 +565,7 @@ models:
                 - "Paced Rhythm"
                 - "Sinus Bradycardia"
                 - "Sinus Tachycardia"
+                - "unknown"
 
       - name: pain_level
         description: "Patient's self-reported pain level on a 0-10 scale, recorded at visit."

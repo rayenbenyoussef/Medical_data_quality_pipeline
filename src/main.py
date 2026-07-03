@@ -1,5 +1,7 @@
 from pandas import read_csv
 
+from extract.fetch_data import MartExtractor
+from quality.mart_validator import MartValidator
 from quality.raw_validator import RawLoadValidator
 from src.config.logging_config import setup_logger
 from db_connection import reader, builder, writer
@@ -17,7 +19,7 @@ dbr=reader.DBReader(db)
 dbw=writer.DBWriter(db)
 
 schemas=cnfmng.schemas
-raw_csvl=CSVRawLoader(dbw,schemas["raw"])
+raw_csvl=CSVRawLoader(dbw,schemas["raw"],rewrite_schema=False)
 
 diagnosis=read_csv("./data/input/diagnosis.csv")
 edstays=read_csv("./data/input/edstays.csv")
@@ -43,5 +45,22 @@ valraw.validate(pyxis,"pyxis",required_not_null_columns=['subject_id', 'stay_id'
 valraw.validate(triage,"triage",required_not_null_columns=['subject_id', 'stay_id'])
 valraw.validate(vitalsign,"vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
 
+ex=MartExtractor(dbr,schemas["mrt"])
+exv=MartValidator()
+
+df=ex.get_ed_visits()
+print(exv.validate_ed_visits(df))
+
+df=ex.get_patients()
+print(exv.validate_patients(df))
+
+df=ex.get_vitalsigns()
+print(exv.validate_vitalsigns(df))
+
+df=ex.get_medrecon()
+print(exv.validate_medrecon(df))
+
+df=ex.get_pyxis()
+print(exv.validate_pyxis(df))
 
 

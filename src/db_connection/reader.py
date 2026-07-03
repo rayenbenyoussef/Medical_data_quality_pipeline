@@ -1,4 +1,5 @@
 from db_connection.base import BaseDBConnection
+
 class DBReader:
     def __init__(self, db: BaseDBConnection):
         self.db = db
@@ -13,7 +14,7 @@ class DBReader:
             for row in rows:
                 rowres : dict=dict()
                 for key, value in enumerate(row):
-                    rowres[desc[key][0]] = str(value)
+                    rowres[desc[key][0]] = value
                 result.append(rowres)
             return result
         finally:

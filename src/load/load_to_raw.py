@@ -7,10 +7,18 @@ from numpy import isnan
 
 logger = logging.getLogger("pipeline")
 class CSVRawLoader:
-    def __init__(self, writer: DBWriter,schema_name:str):
+    def __init__(self, writer: DBWriter,schema_name:str,rewrite_schema:bool=False):
         self.writer = writer
         self.raw_schema = sanitize_identifier(schema_name)
-        self.writer.write(f"create schema {self.raw_schema};")
+        if rewrite_schema:
+            self.writer.write(f"DROP SCHEMA {self.raw_schema};")
+            self.writer.write(f"CREATE SCHEMA {self.raw_schema};")
+        else:
+            try:
+                self.writer.write(f"CREATE SCHEMA {self.raw_schema};")
+            except Exception as e:
+                if f'schema "{self.raw_schema}" already exists' not in str(e):
+                    raise
 
     def build(self, csvraw: DataFrame, table_name: str):
 

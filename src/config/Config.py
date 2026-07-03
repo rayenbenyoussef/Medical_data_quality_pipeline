@@ -28,7 +28,7 @@ class ConfigManager:
     @property
     def schemas(self) -> dict:
         return {
-            "raw": os.getenv("RAW_SCHEMA"),
-            "stg": os.getenv("STG_SCHEMA"),
-            "mrt": os.getenv("MRT_SCHEMA"),
+            "raw": f"{os.getenv("RAW_SCHEMA")}",
+            "stg": f"dbt_{os.getenv("STG_SCHEMA")}",
+            "mrt": f"dbt_{os.getenv("MRT_SCHEMA")}",
         }

@@ -1,11 +1,6 @@
 from  abc import ABC, abstractmethod
 
 class BaseDBConnection(ABC):
-
-    def __init__(self):
-        self.cursor = None
-        self.connection = None
-
     @abstractmethod
     def connect(self):
         pass

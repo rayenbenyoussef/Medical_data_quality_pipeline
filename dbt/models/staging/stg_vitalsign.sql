@@ -2,12 +2,12 @@ select
     subject_id::INT as patient_id,
     stay_id::INT,
     charttime as chart_time,
-    {{ fahr_to_celsius('temperature') }} as temperature,
+    {{ between_nulling(fahr_to_celsius('temperature'),12,43) }}  as temperature,
     heartrate as heart_rate,
     resprate as resp_rate,
-    o2sat as o2_saturation,
-    sbp as systolic_bp,
-    dbp as diastolic_bp,
+    {{ between_nulling('o2sat',50,100) }} as o2_saturation,
+    {{ between_nulling('sbp',30,320) }} as systolic_bp,
+    {{ between_nulling('dbp',10,200) }} as diastolic_bp,
     CASE
         WHEN rhythm IN ('Normal Sinus Rhythm', 'sr') THEN 'Sinus Rhythm'
         WHEN rhythm IN ('Atrial Fibrillation', 'afib') THEN 'Atrial Fibrillation'
