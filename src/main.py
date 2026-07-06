@@ -1,5 +1,8 @@
 from pandas import read_csv
 import subprocess
+
+from db_connection.connectors.mssql import MsSqlDBConnection
+from db_connection.connectors.postgres import PostgresSqlDBConnection
 from extract.fetch_data import MartExtractor
 from quality.mart_validator import MartValidator
 from quality.raw_validator import RawLoadValidator
@@ -52,7 +55,6 @@ def run_pipeline():
 
 
     # 4) run dbt (staging + marts)
-
     subprocess.run(["dbt", "run"], cwd="./dbt", check=True)
     subprocess.run(["dbt", "test"], cwd="./dbt", check=True)
 
@@ -70,11 +72,11 @@ def run_pipeline():
     # 6) validating the extracted data
     extractor_validator=MartValidator()
 
-    print(f"is table ed_visits valid ?: {extractor_validator.validate_ed_visits(ed_visits)}")
-    print(f"is table patients valid ?: {extractor_validator.validate_patients(patients)}")
-    print(f"is table vitalsigns valid ?: {extractor_validator.validate_vitalsigns(vitalsigns)}")
-    print(f"is table medrecon valid ?: {extractor_validator.validate_medrecon(medrecon)}")
-    print(f"is pyxis valid ?: {extractor_validator.validate_pyxis(pyxis)}")
+    extractor_validator.validate_ed_visits(ed_visits)
+    extractor_validator.validate_patients(patients)
+    extractor_validator.validate_vitalsigns(vitalsigns)
+    extractor_validator.validate_medrecon(medrecon)
+    extractor_validator.validate_pyxis(pyxis)
 
 if __name__ == "__main__":
     run_pipeline()

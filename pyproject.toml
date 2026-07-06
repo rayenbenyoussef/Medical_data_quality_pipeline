@@ -1,15 +1,21 @@
 [project]
-name="medical-data-pipeline"
-version="1.0"
-requires-python="==3.14.3"
-dependencies =[
+name = "medical-data-pipeline"
+version = "1.0"
+requires-python = ">=3.10"
+dependencies = [
     "python-dotenv==1.2.2",
 ]
+
 authors = [
-    {name="Rayen Ben youssef", email="rayenbenyoussef815@gmail.com"}
+    {name = "Rayen Ben youssef", email = "rayenbenyoussef815@gmail.com"}
 ]
 
-[project.optional-dependencies]
-
 [build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

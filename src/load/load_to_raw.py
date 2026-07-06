@@ -1,9 +1,9 @@
 from pandas.core.interchange.dataframe_protocol import DataFrame
-
+from db_connection.connectors.mssql import MsSqlDBConnection
 from db_connection.writer import DBWriter
 from utils.sql_helpers import sanitize_identifier
 import logging
-from numpy import isnan
+from utils.x_parser import _convert_row
 
 logger = logging.getLogger("pipeline")
 class CSVRawLoader:
@@ -11,14 +11,10 @@ class CSVRawLoader:
         self.writer = writer
         self.raw_schema = sanitize_identifier(schema_name)
         if rewrite_schema:
-            self.writer.write(f"DROP SCHEMA {self.raw_schema};")
-            self.writer.write(f"CREATE SCHEMA {self.raw_schema};")
+            self.writer.write(f"DROP SCHEMA IF EXISTS {self.raw_schema} CASCADE;")
+            self.writer.write(f"CREATE SCHEMA IF NOT EXISTS {self.raw_schema};")
         else:
-            try:
-                self.writer.write(f"CREATE SCHEMA {self.raw_schema};")
-            except Exception as e:
-                if f'schema "{self.raw_schema}" already exists' not in str(e):
-                    raise
+            self.writer.write(f"CREATE SCHEMA IF NOT EXISTS {self.raw_schema};")
 
     def build(self, csvraw: DataFrame, table_name: str,rewrite_table=False):
 
@@ -61,14 +57,10 @@ class CSVRawLoader:
         logger.info(f"inserting data of {self.raw_schema}.{table_name} table.")
         try:
             for i in range(csvraw.shape[0]):
-                row_values = tuple(
-                    None if (isinstance(v, float) and isnan(v)) else v
-                    for v in csvraw.loc[i].tolist()
-                )
+                row_values = _convert_row(tuple(csvraw.loc[i].tolist()))
                 self.writer.write(insert_sql, params=row_values)
                 logger.info(f"\tloaded {i + 1}/{csvraw.shape[0]} of the data.")
         except Exception as e:
-            self.writer.db.rollback()
             logger.error(f"error at inserting data at {csvraw.loc[i].tolist()}, rolling back ...",exc_info=True)
             raise e
         logger.info(f"data of {self.raw_schema}.{table_name} table inserted.")

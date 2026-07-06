@@ -1,7 +1,8 @@
 medical_data_quality_pipeline:
-  target: dev
+  target: dev-postgres
   outputs:
-    dev:
+
+    dev-postgres:
       type: postgres
       host: "{{ env_var('DB_HOST') }}"
       port: "{{ env_var('DB_PORT') | as_number }}"
