@@ -1,8 +1,6 @@
 from pandas import read_csv
 import subprocess
 
-from db_connection.connectors.mssql import MsSqlDBConnection
-from db_connection.connectors.postgres import PostgresSqlDBConnection
 from extract.fetch_data import MartExtractor
 from quality.mart_validator import MartValidator
 from quality.raw_validator import RawLoadValidator

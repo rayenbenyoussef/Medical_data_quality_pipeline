@@ -13,6 +13,7 @@ class MartExtractor:
         self.schema_name = sanitize_identifier(schema_name)
 
     def _read(self, table_name: str, where: Optional[str] = None) -> DataFrame:
+        table_name=sanitize_identifier(table_name)
         sql= f"select * from {self.schema_name}.{table_name}"
         if where:
             sql += f" where {where}"
@@ -20,7 +21,6 @@ class MartExtractor:
         try:
             res =self.reader.read(sql)
             df=DataFrame(res)
-            print(df.dtypes)
             logger.info(f"extracted {df.shape[0]} rows from {table_name}.")
             return df
         except Exception as e:
