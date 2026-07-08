@@ -30,6 +30,12 @@ class MartExtractor:
 
     def get_ed_visits(self) -> DataFrame:
         df=self._read("fct_ed_visits")
+        df["systolic_bp"] = df["systolic_bp"].astype("Int64")
+        df["o2_saturation"] = df["o2_saturation"].astype("Int64")
+        df["resp_rate"] = df["resp_rate"].astype("Int64")
+        df["heart_rate"] = df["heart_rate"].astype("Int64")
+
+        df["diastolic_bp"] = df["diastolic_bp"].astype("Int64")
         df["pain_level"] = df["pain_level"].astype("Int64")
         df["arrival_date"] = df["arrival_date"].astype("str")
         df["discharge_date"] = df["discharge_date"].astype("str")
@@ -40,6 +46,12 @@ class MartExtractor:
 
     def get_vitalsigns(self) -> DataFrame:
         df=self._read("fct_vitalsigns")
+        df["systolic_bp"] = df["systolic_bp"].astype("Int64")
+        df["o2_saturation"] = df["o2_saturation"].astype("Int64")
+        df["resp_rate"] = df["resp_rate"].astype("Int64")
+        df["heart_rate"] = df["heart_rate"].astype("Int64")
+
+        df["diastolic_bp"] = df["diastolic_bp"].astype("Int64")
         df["pain_level"] = df["pain_level"].astype("Int64")
         return df
 

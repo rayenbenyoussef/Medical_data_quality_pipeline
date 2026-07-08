@@ -13,11 +13,11 @@ class EdVisitsSchema(DataFrameModel):
     disposition : Series[str] = Field(nullable=False,isin=['admitted','home','other','left against medical advice',
                                                            'eloped','transfer','left without being seen'])
     temperature : Series[float] = Field(nullable=True,ge=12,le=43)
-    heart_rate : Series[float] = Field(nullable=True,ge=20,le=300)
-    resp_rate : Series[float] = Field(nullable=True,ge=4,le=60)
-    o2_saturation : Series[float] = Field(nullable=True,ge=50,le=100)
-    systolic_bp : Series[float] = Field(nullable=True,ge=30,le=320)
-    diastolic_bp : Series[float] = Field(nullable=True,ge=10,le=200)
+    heart_rate : Series[int] = Field(nullable=True,ge=20,le=300)
+    resp_rate : Series[int] = Field(nullable=True,ge=4,le=60)
+    o2_saturation : Series[int] = Field(nullable=True,ge=50,le=100)
+    systolic_bp : Series[int] = Field(nullable=True,ge=30,le=320)
+    diastolic_bp : Series[int] = Field(nullable=True,ge=10,le=200)
     pain_level : Series[int] = Field(nullable=True,ge=0,le=10)
     patient_status : Series[str] = Field(nullable=True,isin=['unable-to-assess','declined','asleep-or-resting','not-assessed'])
 
@@ -32,11 +32,11 @@ class VitalsignsSchema(DataFrameModel):
     chart_time : Series[str] = Field(nullable=False)
 
     temperature: Series[float] = Field(nullable=True, ge=12, le=43)
-    heart_rate: Series[float] = Field(nullable=True, ge=20, le=300)
-    resp_rate: Series[float] = Field(nullable=True, ge=4, le=60)
-    o2_saturation: Series[float] = Field(nullable=True, ge=50, le=100)
-    systolic_bp: Series[float] = Field(nullable=True, ge=30, le=320)
-    diastolic_bp: Series[float] = Field(nullable=True, ge=10, le=200)
+    heart_rate: Series[int] = Field(nullable=True, ge=20, le=300)
+    resp_rate: Series[int] = Field(nullable=True, ge=4, le=60)
+    o2_saturation: Series[int] = Field(nullable=True, ge=50, le=100)
+    systolic_bp: Series[int] = Field(nullable=True, ge=30, le=320)
+    diastolic_bp: Series[int] = Field(nullable=True, ge=10, le=200)
     card_rhythm : Series[str] = Field(nullable=False,isin=["Atrial Fibrillation","Sinus Rhythm","Paced Rhythm",
                                                           "Sinus Bradycardia","Sinus Tachycardia","unknown"])
     pain_level: Series[int] = Field(nullable=True, ge=0, le=10)

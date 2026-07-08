@@ -50,8 +50,8 @@ class TestMartExtractor:
 
         assert df.empty
 
-    def test_get_ed_visits_type_cast(self,mock_reader, test_df_diagnosis):
-        mock_reader.read.return_value = test_df_diagnosis
+    def test_get_ed_visits_type_cast(self,mock_reader, test_df_ed_visits):
+        mock_reader.read.return_value = test_df_ed_visits
 
         extractor = MartExtractor(mock_reader, "mrt")
 

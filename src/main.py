@@ -31,7 +31,7 @@ def run_pipeline():
     triage=read_csv("./data/input/triage.csv")
     vitalsign=read_csv("./data/input/vitalsign.csv")
 
-
+    '''
     # 3) building the structure and loading the data
     raw_loader.build(diagnosis,"diagnosis",rewrite_table=True)
     raw_loader.build(edstays,"edstays",rewrite_table=True)
@@ -40,7 +40,7 @@ def run_pipeline():
     raw_loader.build(triage,"triage",rewrite_table=True)
     raw_loader.build(vitalsign,"vitalsign",rewrite_table=True)
 
-
+    
     # 4) validating the loaded raw data
     raw_validator=RawLoadValidator(dbr,schemas["raw"])
 
@@ -51,7 +51,7 @@ def run_pipeline():
     raw_validator.validate(triage,"triage",required_not_null_columns=['subject_id', 'stay_id'])
     raw_validator.validate(vitalsign,"vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
 
-
+    '''
     # 4) run dbt (staging + marts)
     subprocess.run(["dbt", "run"], cwd="./dbt", check=True)
     subprocess.run(["dbt", "test"], cwd="./dbt", check=True)
