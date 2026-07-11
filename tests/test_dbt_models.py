@@ -1,9 +1,13 @@
+import pytest
+
 class TestDbtMarts:
 
+    @pytest.mark.integration
     def test_dim_patients_exists_and_has_rows(self, real_reader):
         result = real_reader.read("SELECT COUNT(*) AS cnt FROM dbt_mrt.dim_patients")
         assert result[0]["cnt"] > 0, "dim_patients is empty"
 
+    @pytest.mark.integration
     def test_dim_patients_no_duplicate_patient_ids(self, real_reader):
         result = real_reader.read("""
             SELECT COUNT(*) AS cnt
@@ -16,6 +20,7 @@ class TestDbtMarts:
         """)
         assert result[0]["cnt"] == 0, "dim_patients has duplicate patient_ids"
 
+    @pytest.mark.integration
     def test_fct_ed_visits_all_patients_exist_in_dim(self, real_reader):
         result = real_reader.read("""
             SELECT COUNT(*) AS cnt
@@ -25,6 +30,7 @@ class TestDbtMarts:
         """)
         assert result[0]["cnt"] == 0, "fct_ed_visits has patient_ids not in dim_patients"
 
+    @pytest.mark.integration
     def test_fct_ed_visits_acuity_in_valid_range(self, real_reader):
         result = real_reader.read("""
             SELECT COUNT(*) AS cnt
@@ -34,6 +40,7 @@ class TestDbtMarts:
         """)
         assert result[0]["cnt"] == 0, "fct_ed_visits has invalid acuity values"
 
+    @pytest.mark.integration
     def test_dim_date_covers_all_arrival_dates(self, real_reader):
         result = real_reader.read("""
             SELECT COUNT(*) AS cnt
@@ -43,6 +50,7 @@ class TestDbtMarts:
         """)
         assert result[0]["cnt"] == 0, "Some arrival_dates not covered by dim_date"
 
+    @pytest.mark.integration
     def test_bridge_triage_complaints_valid_stay_ids(self,real_reader):
         result = real_reader.read("""
             SELECT COUNT(*) AS cnt

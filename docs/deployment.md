@@ -78,17 +78,7 @@ Required variables:
 | STG_SCHEMA | Staging layer schema name | stg |
 | MRT_SCHEMA | Mart layer schema name | mrt |
 
-### 5. Create PostgreSQL schemas
-
-Connect to your PostgreSQL instance and run:
-
-```sql
-CREATE SCHEMA IF NOT EXISTS raw;
-CREATE SCHEMA IF NOT EXISTS stg;
-CREATE SCHEMA IF NOT EXISTS mrt;
-```
-
-### 6. Install dbt packages
+### 5. Install dbt packages
 
 ```bash
 cd dbt
@@ -96,7 +86,7 @@ dbt deps
 cd ..
 ```
 
-### 7. Verify dbt connection
+### 6. Verify dbt connection
 
 ```bash
 cd dbt
