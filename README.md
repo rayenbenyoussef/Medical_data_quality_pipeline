@@ -46,7 +46,7 @@ The stack is built entirely on tools that dominate real job postings and company
 ## 🏗️ Project Structure
 
 ```
-PRODUCTION_ETL/
+medical_data_quality_pipeline/
 │
 ├── pyproject.toml              # Project metadata and dependencies (modern standard)
 ├── .dockerignore
@@ -54,6 +54,7 @@ PRODUCTION_ETL/
 ├── .env.input                  # Template for environment config
 ├── .gitignore
 ├── docker-compose.yml          # Full stack: pipeline + Airflow + PostgreSQL + Prometheus + Grafana
+├── pytest.ini 
 ├── README.md
 │
 ├── requirements/               # Kept for Docker layer caching compatibility
@@ -70,15 +71,37 @@ PRODUCTION_ETL/
 │   ├── profiles.yml            # DB connection profiles
 │   ├── models/
 │   │   ├── staging/            # Raw → typed, renamed, light cleaning
-│   │   │   ├── stg_edstays.sql
+│   │   │   ├── stg_models.yml
+│   │   │   ├── sources.yml
 │   │   │   ├── stg_triage.sql
+│   │   │   ├── stg_diagnosis.sql
+│   │   │   ├── stg_medrecon.sql
+│   │   │   ├── stg_edstays.sql
+│   │   │   ├── stg_pyxis.sql
 │   │   │   └── stg_vitalsign.sql
 │   │   └── marts/              # Business-logic models, ready for analytics
 │   │       ├── fct_ed_visits.sql
-│   │       └── dim_patients.sql
+│   │       ├── fct_vitalsigns.sql
+│   │       ├── fct_pyxis.sql
+│   │       ├── fct_medrecon.sql
+│   │       ├── fct_diagnosis.sql
+│   │       ├── dim_medications.sql
+│   │       ├── dim_icd_classification.sql
+│   │       ├── dim_hour.sql
+│   │       ├── dim_etc_classification.sql
+│   │       ├── dim_date.sql
+│   │       ├── dim_chiefcomplaint.sql
+│   │       ├── dim_patients.sql
+│   │       └── bridge_triage_complaints.sql
+│   │       
 │   ├── tests/                  # dbt data tests (not-null, unique, range checks)
-│   │   └── assert_vitals_in_range.sql
+│   │   └── test_dim_patients_contains_ed_patients.sql
 │   └── macros/                 # Reusable Jinja SQL macros
+│       ├── between_nulling.sql
+│       ├── extract_country.sql
+│       ├── extract_race.sql
+│       ├── fahr_to_celsius.sql
+│       └── pain_filter.sql
 │
 ├── dags/                       # Airflow DAG definitions
 │   ├── medical_etl_dag.py      # Main ELT pipeline DAG (daily schedule)
@@ -92,14 +115,13 @@ PRODUCTION_ETL/
 │   │   ├── business_rules.md
 │   │   └── pipeline_flow.md
 │   └── schema/
-│       ├── data_dictionary.csv
-│       └── er_diagram.md
+│       ├── mart_diagram.pdf
+│       └── staging_diagram.pdf
 │
 ├── logs/
-│   ├── critical.log
-│   ├── error.log
-│   ├── info.log
-│   └── warning.log
+│   ├── debug.log
+│   ├── errors.log
+│   └── pipeline.log
 │
 ├── monitoring/
 │   ├── prometheus.yml          # Scrape config for pipeline and Airflow metrics
@@ -111,9 +133,6 @@ PRODUCTION_ETL/
 │   └── main.ipynb              # Exploratory analysis and profiling
 │
 ├── scripts/
-│   ├── entrypoint.sh
-│   ├── run_tests.sh
-│   └── setup.sh
 │
 ├── sql/
 │   ├── queries/
@@ -126,15 +145,17 @@ PRODUCTION_ETL/
 │   │
 │   ├── config/
 │   │   ├── logging_config.py   # Structured logging setup
-│   │   ├── settings.py         # Environment parsing and global config
+│   │   ├── Config.py         # Environment parsing and global config
 │   │   └── __init__.py
 │   │
 │   ├── db_connection/          # DB abstraction layer
 │   │   ├── base.py             # Abstract connection interface
 │   │   ├── builder.py          # Connection factory (SQLAlchemy engines)
 │   │   ├── reader.py           # Generic query execution
+│   │   ├── writer.py 
 │   │   ├── __init__.py
 │   │   └── connectors/
+│   │       ├── exceptions.py
 │   │       ├── mssql.py
 │   │       ├── postgres.py
 │   │       └── __init__.py
@@ -144,10 +165,12 @@ PRODUCTION_ETL/
 │   │   └── __init__.py
 │   │
 │   ├── load/
-│   │   ├── load_to_staging.py  # Write raw data to PostgreSQL staging schema
+│   │   ├── load_to_raw.py  # Write raw data to PostgreSQL staging schema
 │   │   └── __init__.py
 │   │
 │   ├── quality/
+│   │   ├── raw_validator.py
+│   │   ├── mart_validator.py
 │   │   ├── pandera_schemas.py  # Per-table Pandera schemas (types, ranges, nulls)
 │   │   ├── date_validator.py   # Medical timestamp checks as Pandera custom checks
 │   │   └── __init__.py
@@ -155,9 +178,11 @@ PRODUCTION_ETL/
 │   └── utils/
 │       ├── metrics.py          # Prometheus counter/gauge helpers
 │       ├── x_parser.py         # XML/custom format parser
+│       ├── sql_helpers.py   
 │       └── __init__.py
 │
 └── tests/
+    ├── conftest.py
     ├── test_extract.py
     ├── test_load.py
     ├── test_schemas.py         # Pandera schema unit tests
@@ -187,12 +212,28 @@ This project was built as a hands-on learning portfolio. Skills are split betwee
 
 ---
 
+## 🎯 Why This Stack
+
+Every tool in this project was chosen based on verified production adoption data, not trends:
+
+| Tool | Adoption Evidence |
+|------|-------------------|
+| Apache Airflow | 8,375+ companies · OpenAI runs 7,000 pipelines on it |
+| dbt Core | 57,000+ companies · de facto SQL transformation standard |
+| PostgreSQL | Most widely used open-source relational database |
+| Docker | 59% of professional developers use it daily |
+| Pandas | 77% adoption among data engineers |
+| Prometheus + Grafana | Industry-standard open-source monitoring stack |
+
+---
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - Docker & Docker Compose
 - Python 3.12+
+- PostgresSql
 - Credentials configured in `.env`
 
 ### Run the full stack with Docker
@@ -266,19 +307,6 @@ The following features are planned but not yet implemented:
 - **MSSQL support** — Python connectors built, dbt models are Postgres-only
 
 ---
-
-## 🎯 Why This Stack
-
-Every tool in this project was chosen based on verified production adoption data, not trends:
-
-| Tool | Adoption Evidence |
-|------|-------------------|
-| Apache Airflow | 8,375+ companies · OpenAI runs 7,000 pipelines on it |
-| dbt Core | 57,000+ companies · de facto SQL transformation standard |
-| PostgreSQL | Most widely used open-source relational database |
-| Docker | 59% of professional developers use it daily |
-| Pandas | 77% adoption among data engineers |
-| Prometheus + Grafana | Industry-standard open-source monitoring stack |
 
 ## Author
 
