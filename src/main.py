@@ -4,10 +4,12 @@ import subprocess
 from extract.fetch_data import MartExtractor
 from quality.mart_validator import MartValidator
 from quality.raw_validator import RawLoadValidator
-from src.config.logging_config import setup_logger
 from db_connection import reader, builder, writer
 from config.Config import ConfigManager
 from load.load_to_raw import CSVRawLoader
+
+from config.logging_config import setup_logger
+
 
 logger = setup_logger()
 

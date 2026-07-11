@@ -26,7 +26,6 @@ The stack is built entirely on tools that dominate real job postings and company
 | **Pandera** | DataFrame validation | Production-ready schema testing for Pandas/Polars |
 | **Docker + Compose** | Containerization | 59% of professional developers, fully reproducible |
 | **Prometheus + Grafana** | Observability | Industry standard monitoring stack |
-| **SQLAlchemy 2.x** | DB connectivity | Standard Python DB abstraction layer |
 | **pytest** | Testing | Standard Python testing framework |
 
 ---
@@ -167,32 +166,6 @@ PRODUCTION_ETL/
 
 ---
 
-## 🔄 Pipeline Architecture
-
-```
-[Source DBs: PostgreSQL / MSSQL]
-        │
-        ▼  (SQLAlchemy)
-[Extract: fetch_data.py]         ← Pandera validation at this layer
-        │
-        ▼
-[Load to Staging: PostgreSQL]    ← Raw schema, no transformation
-        │
-        ▼  (dbt run)
-[Transform: dbt models]          ← staging/ → marts/ with dbt tests
-        │
-        ▼
-[Marts: PostgreSQL]              ← Analytics-ready tables
-        │
-        ▼
-[Airflow DAG orchestrates all above with scheduling + retries]
-        │
-        ▼
-[Prometheus metrics → Grafana dashboard]
-```
-
----
-
 ## 🔧 Skills Demonstrated
 
 This project was built as a hands-on learning portfolio. Skills are split between what I applied from prior experience and what I learned specifically to build this project.
@@ -203,7 +176,6 @@ This project was built as a hands-on learning portfolio. Skills are split betwee
 - **Pandas 3.x** — Data cleaning, datetime normalization, Parquet I/O, memory-efficient reads
 
 ### Learned to build this project
-- **SQLAlchemy 2.x** — Abstract connection factory, multi-DB support (PostgreSQL + MSSQL), connection pooling
 - **dbt Core** — Staging/marts model design, YAML schema tests, Jinja macros, auto-generated lineage docs
 - **Apache Airflow 3** — DAG authoring, PythonOperator, BashOperator, cron scheduling, retries, Connections
 - **Pandera** — Per-table DataFrame schemas, medical-domain range checks, custom validators
@@ -237,105 +209,7 @@ docker-compose up --build
 
 ### Run locally
 
-```bash
-# Install dependencies
-pip install -e ".[dev]"
-
-# Configure environment
-cp .env.input .env
-
-# Run extract + load to staging
-python src/main.py
-
-# Run dbt transformations
-cd dbt && dbt run && dbt test
-
-# Trigger the Airflow DAG manually
-airflow dags trigger medical_etl_dag
-```
-
-### Run tests
-
-```bash
-bash scripts/run_tests.sh
-# or
-pytest tests/ -v --cov=src
-```
-
----
-
-## ✅ Data Validation — Two Layers
-
-### Layer 1 — Python (Pandera)
-Runs in `src/quality/pandera_schemas.py` immediately after extraction. Catches bad types, null violations, and out-of-range medical values before anything reaches the database.
-
-```python
-import pandera as pa
-
-EdStaysSchema = pa.DataFrameSchema({
-    "subject_id":  pa.Column(int, nullable=False),
-    "intime":      pa.Column("datetime64[ns]", nullable=False),
-    "outtime":     pa.Column("datetime64[ns]", nullable=True),
-    "temperature": pa.Column(float, pa.Check.in_range(30.0, 45.0), nullable=True),
-    "heartrate":   pa.Column(float, pa.Check.in_range(0, 300),     nullable=True),
-})
-```
-
-### Layer 2 — SQL (dbt tests)
-Runs after `dbt run`. Tests are declared in YAML and executed as SQL assertions against the warehouse.
-
-```yaml
-# dbt/models/staging/schema.yml
-models:
-  - name: stg_edstays
-    columns:
-      - name: subject_id
-        tests: [not_null, unique]
-      - name: intime
-        tests: [not_null]
-```
-
----
-
-## 📊 Observability
-
-| Metric | Description |
-|--------|-------------|
-| `etl_records_extracted_total` | Records pulled per source table |
-| `etl_records_failed_validation_total` | Pandera failures by table and check name |
-| `etl_pipeline_duration_seconds` | End-to-end run time per DAG execution |
-| `etl_records_loaded_total` | Records successfully written to staging |
-| `dbt_models_passed_total` | dbt models that completed successfully |
-| `dbt_tests_failed_total` | dbt test failures by model |
-
----
-
-## 📦 Dependencies (`pyproject.toml`)
-
-```toml
-[project]
-name = "medical-etl-pipeline"
-requires-python = ">=3.12"
-
-dependencies = [
-    # Core
-    "pandas>=3.0",
-    "numpy>=1.26",
-    "sqlalchemy>=2.0",
-    # Orchestration
-    "apache-airflow>=3.0",
-    # Validation
-    "pandera>=0.20",
-    # Observability
-    "prometheus-client>=0.20",
-    # DB drivers
-    "psycopg2-binary>=2.9",
-    "pyodbc>=5.0",
-]
-
-[project.optional-dependencies]
-dev = ["pytest>=8.0", "pytest-cov", "ruff", "mypy", "dbt-core>=1.8", "dbt-postgres>=1.8"]
-```
+See the installation guide: [Installation](docs/deployment.md)
 
 ---
 
@@ -345,9 +219,51 @@ Built against the **[MIMIC-IV-ED Demo](https://physionet.org/content/mimic-iv-ed
 
 ---
 
-## 📌 Status
+## Database Schema
 
-🚧 **In active development** — extract, load, Pandera validation, and dbt staging models complete. Airflow DAGs and Grafana dashboards in progress.
+### Raw Layer (`raw.*`)
+One table per source CSV file, loaded as-is with minimal transformation:
+- `raw.edstays`, `raw.triage`, `raw.vitalsign`
+- `raw.diagnosis`, `raw.medrecon`, `raw.pyxis`
+
+### Staging Layer (`stg.*`)
+One model per source table, cleaned and typed:
+- `stg.stg_edstays`, `stg.stg_triage`, `stg.stg_vitalsign`
+- `stg.stg_diagnosis`, `stg.stg_medrecon`, `stg.stg_pyxis`
+
+### Mart Layer (`mrt.*`)
+Star schema dimensional model:
+
+**Dimensions:**
+- `mrt.dim_patients` — patient demographics
+- `mrt.dim_date` — calendar date dimension
+- `mrt.dim_hour` — time-of-day dimension (minute granularity)
+- `mrt.dim_medications` — medication reference
+- `mrt.dim_icd_classification` — ICD diagnosis codes
+- `mrt.dim_etc_classification` — therapeutic classification codes
+- `mrt.dim_chiefcomplaint` — chief complaint categories
+
+**Facts:**
+- `mrt.fct_ed_visits` — one row per ED visit (central fact table, includes triage)
+- `mrt.fct_vitalsigns` — repeated vital sign measurements per visit
+- `mrt.fct_diagnosis` — diagnoses per visit
+- `mrt.fct_medrecon` — pre-visit medications per patient
+- `mrt.fct_pyxis` — medications dispensed during visit
+
+**Bridge:**
+- `mrt.bridge_triage_complaints` — visit ↔ chief complaint (many-to-many)
+
+---
+
+## Planned Enhancements
+
+The following features are planned but not yet implemented:
+
+- **Docker containerization** — `docker-compose.yml` scaffolding exists
+- **Airflow orchestration** — DAG files exist as stubs (`dags/`)
+- **Grafana monitoring dashboards** — dashboard JSON scaffolding exists
+- **Prometheus metrics** — `monitoring/prometheus.yml` scaffolding exists
+- **MSSQL support** — Python connectors built, dbt models are Postgres-only
 
 ---
 
@@ -364,4 +280,7 @@ Every tool in this project was chosen based on verified production adoption data
 | Pandas | 77% adoption among data engineers |
 | Prometheus + Grafana | Industry-standard open-source monitoring stack |
 
-No experimental frameworks. No early-stage bets. Everything here is in active production at companies that are hiring.
+## Author
+
+Rayen Ben Youssef
+GitHub: https://github.com/rayenbenyoussef
