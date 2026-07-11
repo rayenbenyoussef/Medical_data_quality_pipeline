@@ -1,0 +1,24 @@
+# Database connectors
+psycopg[binary]>=3.3.4
+psycopg2-binary>=2.9.12
+pyodbc>=5.3.0
+
+# Data processing
+pandas>=3.0.3
+numpy>=2.5.0
+openpyxl>=3.1.5
+
+# dbt
+dbt-core>=1.12.0b3
+dbt-postgres>=1.10.2
+
+# Validation
+pandera>=0.32.1
+
+# Configuration
+python-dotenv>=1.2.2
+
+# Utilities
+pydantic>=2.13.4
+PyYAML>=6.0.3
+requests>=2.34.2

@@ -1,45 +1,45 @@
-[INFO:20] 2026-07-08 21:59:55,676 - Extracting data from fct_ed_visits ...
+[INFO:20] 2026-07-11 12:20:03,076 - Extracting data from fct_ed_visits ...
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 20
 
-[INFO:20] 2026-07-08 21:59:55,712 - extracted 222 rows from fct_ed_visits.
+[INFO:20] 2026-07-11 12:20:03,242 - extracted 222 rows from fct_ed_visits.
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
 
-[INFO:20] 2026-07-08 21:59:55,715 - Extracting data from dim_patients ...
+[INFO:20] 2026-07-11 12:20:03,251 - Extracting data from dim_patients ...
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 20
 
-[INFO:20] 2026-07-08 21:59:55,748 - extracted 64 rows from dim_patients.
+[INFO:20] 2026-07-11 12:20:03,406 - extracted 64 rows from dim_patients.
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
 
-[INFO:20] 2026-07-08 21:59:55,748 - Extracting data from fct_vitalsigns ...
+[INFO:20] 2026-07-11 12:20:03,406 - Extracting data from fct_vitalsigns ...
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 20
 
-[INFO:20] 2026-07-08 21:59:55,941 - extracted 1037 rows from fct_vitalsigns.
+[INFO:20] 2026-07-11 12:20:03,466 - extracted 1037 rows from fct_vitalsigns.
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
 
-[INFO:20] 2026-07-08 21:59:55,943 - Extracting data from fct_medrecon ...
+[INFO:20] 2026-07-11 12:20:03,474 - Extracting data from fct_medrecon ...
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 20
 
-[INFO:20] 2026-07-08 21:59:55,989 - extracted 2762 rows from fct_medrecon.
+[INFO:20] 2026-07-11 12:20:03,560 - extracted 2762 rows from fct_medrecon.
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
 
-[INFO:20] 2026-07-08 21:59:55,990 - Extracting data from fct_pyxis ...
+[INFO:20] 2026-07-11 12:20:03,563 - Extracting data from fct_pyxis ...
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 20
 
-[INFO:20] 2026-07-08 21:59:56,022 - extracted 1050 rows from fct_pyxis.
+[INFO:20] 2026-07-11 12:20:03,731 - extracted 1050 rows from fct_pyxis.
 F:\code\medical-data-quality-pipeline\src\extract\fetch_data.py - _read - 24
 
-[INFO:20] 2026-07-08 21:59:56,066 - fct_ed_visits passed.
+[INFO:20] 2026-07-11 12:20:03,933 - fct_ed_visits passed.
 F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_ed_visits - 12
 
-[INFO:20] 2026-07-08 21:59:56,071 - dim_patients passed.
+[INFO:20] 2026-07-11 12:20:03,993 - dim_patients passed.
 F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_patients - 21
 
-[INFO:20] 2026-07-08 21:59:56,090 - fct_vitalsigns passed.
+[INFO:20] 2026-07-11 12:20:04,153 - fct_vitalsigns passed.
 F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_vitalsigns - 30
 
-[INFO:20] 2026-07-08 21:59:56,097 - fct_medrecon passed.
+[INFO:20] 2026-07-11 12:20:04,221 - fct_medrecon passed.
 F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_medrecon - 48
 
-[INFO:20] 2026-07-08 21:59:56,103 - fct_pyxis passed.
+[INFO:20] 2026-07-11 12:20:04,267 - fct_pyxis passed.
 F:\code\medical-data-quality-pipeline\src\quality\mart_validator.py - validate_pyxis - 57
 
