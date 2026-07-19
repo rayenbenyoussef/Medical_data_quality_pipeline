@@ -2,14 +2,20 @@ from typing import Optional
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
-
 class ConfigManager:
+    def __init__(self):
+        load_dotenv()
+        self.project_root = os.getenv('PROJECT_ROOT')
+
+        if self.project_root is None:
+            raise ValueError("Variable .env 'PROJECT_ROOT' is not set..")
+        self.dbt_dir = f'{self.project_root}/dbt'
+        self.data_input = f'{self.project_root}/data/input'
     @staticmethod
     def get_dbconfig() -> dict:
         db_type: Optional[str] = os.getenv("DB_TYPE")
 
-        if db_type not in ("mssql", "postgres"):
+        if db_type not in "postgres":
             raise ValueError(f"Invalid connection type: {db_type}")
 
         config = {

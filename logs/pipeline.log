@@ -1,15 +1,82 @@
-2026-07-11 12:20:03,076 - INFO - Extracting data from fct_ed_visits ...
-2026-07-11 12:20:03,242 - INFO - extracted 222 rows from fct_ed_visits.
-2026-07-11 12:20:03,251 - INFO - Extracting data from dim_patients ...
-2026-07-11 12:20:03,406 - INFO - extracted 64 rows from dim_patients.
-2026-07-11 12:20:03,406 - INFO - Extracting data from fct_vitalsigns ...
-2026-07-11 12:20:03,466 - INFO - extracted 1037 rows from fct_vitalsigns.
-2026-07-11 12:20:03,474 - INFO - Extracting data from fct_medrecon ...
-2026-07-11 12:20:03,560 - INFO - extracted 2762 rows from fct_medrecon.
-2026-07-11 12:20:03,563 - INFO - Extracting data from fct_pyxis ...
-2026-07-11 12:20:03,731 - INFO - extracted 1050 rows from fct_pyxis.
-2026-07-11 12:20:03,933 - INFO - fct_ed_visits passed.
-2026-07-11 12:20:03,993 - INFO - dim_patients passed.
-2026-07-11 12:20:04,153 - INFO - fct_vitalsigns passed.
-2026-07-11 12:20:04,221 - INFO - fct_medrecon passed.
-2026-07-11 12:20:04,267 - INFO - fct_pyxis passed.
+2026-07-16 13:12:18,918 - INFO - preparing table raw.diagnosis.
+2026-07-16 13:12:19,064 - INFO - creating table raw.diagnosis.
+2026-07-16 13:12:19,212 - INFO - Table raw.diagnosis created
+2026-07-16 13:12:19,212 - INFO - preparing data of raw.diagnosis table.
+2026-07-16 13:12:19,212 - INFO - inserting data of raw.diagnosis table.
+2026-07-16 13:12:19,294 - INFO - 	loaded 1/545 of the data.
+2026-07-16 13:12:19,336 - INFO - 	loaded 2/545 of the data.
+2026-07-16 13:12:19,379 - INFO - 	loaded 3/545 of the data.
+2026-07-16 13:12:19,427 - INFO - 	loaded 4/545 of the data.
+2026-07-16 13:12:19,470 - INFO - 	loaded 5/545 of the data.
+2026-07-16 13:12:19,514 - INFO - 	loaded 6/545 of the data.
+2026-07-16 13:12:19,555 - INFO - 	loaded 7/545 of the data.
+2026-07-16 13:12:19,599 - INFO - 	loaded 8/545 of the data.
+2026-07-16 13:12:19,650 - INFO - 	loaded 9/545 of the data.
+2026-07-16 13:12:19,703 - INFO - 	loaded 10/545 of the data.
+2026-07-16 13:12:19,747 - INFO - 	loaded 11/545 of the data.
+2026-07-16 13:12:19,787 - INFO - 	loaded 12/545 of the data.
+2026-07-16 13:12:19,829 - INFO - 	loaded 13/545 of the data.
+2026-07-16 13:12:19,878 - INFO - 	loaded 14/545 of the data.
+2026-07-16 13:12:19,927 - INFO - 	loaded 15/545 of the data.
+2026-07-16 13:12:20,019 - INFO - 	loaded 16/545 of the data.
+2026-07-16 13:12:20,066 - INFO - 	loaded 17/545 of the data.
+2026-07-16 13:12:20,119 - INFO - 	loaded 18/545 of the data.
+2026-07-16 13:12:20,162 - INFO - 	loaded 19/545 of the data.
+2026-07-16 13:12:20,201 - INFO - 	loaded 20/545 of the data.
+2026-07-16 13:12:20,370 - INFO - 	loaded 21/545 of the data.
+2026-07-16 13:12:20,418 - INFO - 	loaded 22/545 of the data.
+2026-07-16 13:12:20,665 - INFO - 	loaded 23/545 of the data.
+2026-07-16 13:12:20,745 - INFO - 	loaded 24/545 of the data.
+2026-07-16 13:12:20,790 - INFO - 	loaded 25/545 of the data.
+2026-07-16 13:12:21,031 - INFO - 	loaded 26/545 of the data.
+2026-07-16 13:12:21,101 - INFO - 	loaded 27/545 of the data.
+2026-07-16 13:12:21,169 - INFO - 	loaded 28/545 of the data.
+2026-07-16 13:12:21,228 - INFO - 	loaded 29/545 of the data.
+2026-07-16 13:12:21,304 - INFO - 	loaded 30/545 of the data.
+2026-07-16 13:12:21,402 - INFO - 	loaded 31/545 of the data.
+2026-07-16 13:12:21,472 - INFO - 	loaded 32/545 of the data.
+2026-07-16 13:12:21,532 - INFO - 	loaded 33/545 of the data.
+2026-07-16 13:12:21,579 - INFO - 	loaded 34/545 of the data.
+2026-07-16 13:12:21,620 - INFO - 	loaded 35/545 of the data.
+2026-07-16 13:12:21,662 - INFO - 	loaded 36/545 of the data.
+2026-07-16 13:12:21,701 - INFO - 	loaded 37/545 of the data.
+2026-07-16 13:12:21,746 - INFO - 	loaded 38/545 of the data.
+2026-07-16 13:12:21,805 - INFO - 	loaded 39/545 of the data.
+2026-07-16 13:12:21,856 - INFO - 	loaded 40/545 of the data.
+2026-07-16 13:12:21,904 - INFO - 	loaded 41/545 of the data.
+2026-07-16 13:12:21,955 - INFO - 	loaded 42/545 of the data.
+2026-07-16 13:12:22,015 - INFO - 	loaded 43/545 of the data.
+2026-07-16 13:12:22,057 - INFO - 	loaded 44/545 of the data.
+2026-07-16 13:12:22,098 - INFO - 	loaded 45/545 of the data.
+2026-07-16 13:12:22,313 - INFO - 	loaded 46/545 of the data.
+2026-07-16 13:12:22,429 - INFO - 	loaded 47/545 of the data.
+2026-07-16 13:12:22,481 - INFO - 	loaded 48/545 of the data.
+2026-07-16 13:12:22,548 - INFO - 	loaded 49/545 of the data.
+2026-07-16 13:12:22,605 - INFO - 	loaded 50/545 of the data.
+2026-07-16 13:12:22,662 - INFO - 	loaded 51/545 of the data.
+2026-07-16 13:12:22,714 - INFO - 	loaded 52/545 of the data.
+2026-07-16 13:12:22,782 - INFO - 	loaded 53/545 of the data.
+2026-07-16 13:12:22,843 - INFO - 	loaded 54/545 of the data.
+2026-07-16 13:12:22,890 - INFO - 	loaded 55/545 of the data.
+2026-07-16 13:12:22,932 - INFO - 	loaded 56/545 of the data.
+2026-07-16 13:12:22,983 - INFO - 	loaded 57/545 of the data.
+2026-07-16 13:12:23,043 - INFO - 	loaded 58/545 of the data.
+2026-07-16 13:12:23,099 - INFO - 	loaded 59/545 of the data.
+2026-07-16 13:12:23,157 - INFO - 	loaded 60/545 of the data.
+2026-07-16 13:12:23,209 - INFO - 	loaded 61/545 of the data.
+2026-07-16 13:12:23,258 - INFO - 	loaded 62/545 of the data.
+2026-07-16 13:12:23,311 - INFO - 	loaded 63/545 of the data.
+2026-07-16 13:12:23,356 - INFO - 	loaded 64/545 of the data.
+2026-07-16 13:12:23,410 - INFO - 	loaded 65/545 of the data.
+2026-07-16 13:12:23,458 - INFO - 	loaded 66/545 of the data.
+2026-07-16 13:12:23,512 - INFO - 	loaded 67/545 of the data.
+2026-07-16 13:12:23,554 - INFO - 	loaded 68/545 of the data.
+2026-07-16 13:12:23,595 - INFO - 	loaded 69/545 of the data.
+2026-07-16 13:12:23,636 - INFO - 	loaded 70/545 of the data.
+2026-07-16 13:12:23,679 - INFO - 	loaded 71/545 of the data.
+2026-07-16 13:12:23,725 - INFO - 	loaded 72/545 of the data.
+2026-07-16 13:12:23,785 - INFO - 	loaded 73/545 of the data.
+2026-07-16 13:12:23,831 - INFO - 	loaded 74/545 of the data.
+2026-07-16 13:12:23,886 - INFO - 	loaded 75/545 of the data.
+2026-07-16 13:12:23,945 - INFO - 	loaded 76/545 of the data.
+2026-07-16 13:12:23,998 - INFO - 	loaded 77/545 of the data.

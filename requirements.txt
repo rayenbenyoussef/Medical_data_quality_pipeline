@@ -1,0 +1,9 @@
+
+# Database connectors
+psycopg[binary]>=3.3.4
+psycopg2-binary>=2.9.12
+pyodbc>=5.3.0
+
+# dbt
+dbt-core>=1.12.0b3
+dbt-postgres>=1.10.2

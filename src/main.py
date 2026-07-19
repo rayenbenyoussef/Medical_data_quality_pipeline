@@ -26,14 +26,14 @@ def run_pipeline():
     # 2) initialization of the raw data loaders
     raw_loader=CSVRawLoader(dbw,schemas["raw"],rewrite_schema=False)
 
-    diagnosis=read_csv("./data/input/diagnosis.csv")
-    edstays=read_csv("./data/input/edstays.csv")
-    medrecon=read_csv("./data/input/medrecon.csv")
-    pyxis=read_csv("./data/input/pyxis.csv")
-    triage=read_csv("./data/input/triage.csv")
-    vitalsign=read_csv("./data/input/vitalsign.csv")
+    diagnosis=read_csv(f"{cnfmng.data_input}/diagnosis.csv")
+    edstays=read_csv(f"{cnfmng.data_input}/edstays.csv")
+    medrecon=read_csv(f"{cnfmng.data_input}/medrecon.csv")
+    pyxis=read_csv(f"{cnfmng.data_input}/pyxis.csv")
+    triage=read_csv(f"{cnfmng.data_input}/triage.csv")
+    vitalsign=read_csv(f"{cnfmng.data_input}/vitalsign.csv")
 
-    '''
+
     # 3) building the structure and loading the data
     raw_loader.build(diagnosis,"diagnosis",rewrite_table=True)
     raw_loader.build(edstays,"edstays",rewrite_table=True)
@@ -53,10 +53,10 @@ def run_pipeline():
     raw_validator.validate(triage,"triage",required_not_null_columns=['subject_id', 'stay_id'])
     raw_validator.validate(vitalsign,"vitalsign",required_not_null_columns=['subject_id', 'stay_id'])
 
-    '''
+
     # 4) run dbt (staging + marts)
-    subprocess.run(["dbt", "run"], cwd="./dbt", check=True)
-    subprocess.run(["dbt", "test"], cwd="./dbt", check=True)
+    subprocess.run(["dbt", "run"], cwd=cnfmng.dbt_dir, check=True)
+    subprocess.run(["dbt", "test"], cwd=cnfmng.dbt_dir, check=True)
 
 
     # 5) extracting marts tables

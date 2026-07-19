@@ -1,5 +1,4 @@
 from pandas.core.interchange.dataframe_protocol import DataFrame
-from db_connection.connectors.mssql import MsSqlDBConnection
 from db_connection.writer import DBWriter
 from utils.sql_helpers import sanitize_identifier
 import logging
