@@ -9,9 +9,6 @@ import sys
 import os
 from dotenv import load_dotenv
 
-from extract.fetch_data import MartExtractor
-from quality.mart_validator import MartValidator
-
 load_dotenv()
 PROJECT_ROOT = os.getenv("PROJECT_ROOT", "/opt/airflow")
 
@@ -20,6 +17,8 @@ if PROJECT_ROOT is None:
 
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
 
+from extract.fetch_data import MartExtractor
+from quality.mart_validator import MartValidator
 from config.Config import ConfigManager
 from db_connection import builder, reader
 from quality.raw_validator import RawLoadValidator
@@ -86,6 +85,7 @@ with DAG(
     description='Medical Data Quality Pipeline — data quality testing',
     catchup=False,
 ) as dag:
+
     cnfmng = ConfigManager()
     test_raw=PythonOperator(
         task_id='test_raw',

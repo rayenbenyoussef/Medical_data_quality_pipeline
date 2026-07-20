@@ -7,3 +7,6 @@ pyodbc>=5.3.0
 # dbt
 dbt-core>=1.12.0b3
 dbt-postgres>=1.10.2
+
+# Validation
+pandera>=0.32.1
