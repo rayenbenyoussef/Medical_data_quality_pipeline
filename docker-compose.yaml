@@ -20,7 +20,7 @@
 #
 # WARNING: This configuration is for local development. Do not use it in a production deployment.
 #
-# This configuration supports basic configuration using environment variables or an .env file
+# This configuration supports basic configuration using environment variables or an .env.local.local file
 # The following variables are supported:
 #
 # AIRFLOW_IMAGE_NAME           - Docker image name used to run Airflow.
@@ -52,7 +52,8 @@ x-airflow-common:
   image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:3.3.0}
   # build: .
   env_file:
-    - ${ENV_FILE_PATH:-.env}
+    - .env
+    - .env.docker
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
@@ -85,7 +86,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/src:/opt/airflow/src        # ← add this
     - ${AIRFLOW_PROJ_DIR:-.}/dbt:/opt/airflow/dbt        # ← add this
     - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data      # ← add this
-    - ${AIRFLOW_PROJ_DIR:-.}/.env:/opt/airflow/.env
+    - ${AIRFLOW_PROJ_DIR:-.}/.env.local.local:/opt/airflow/.env.local.local
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on

@@ -7,11 +7,12 @@ from pandas import read_csv
 import sys
 import os
 from dotenv import load_dotenv
-load_dotenv()
+load_dotenv(".env")
+load_dotenv(".env.docker")
 PROJECT_ROOT = os.getenv("PROJECT_ROOT")
 
 if PROJECT_ROOT is None:
-    raise ValueError("Airflow .env Variable 'PROJECT_ROOT' is not set.")
+    raise ValueError("Airflow .env.local.local Variable 'PROJECT_ROOT' is not set.")
 
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'src'))
 

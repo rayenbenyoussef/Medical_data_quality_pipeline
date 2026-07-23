@@ -17,12 +17,12 @@ Edit the env file for your TARGET in `integration_tests/.env/[TARGET].env`.  The
 
 Load the environment variables:
 ```shell
-set -a; source integration_tests/.env/[TARGET].env; set +a
+set -a; source integration_tests/.env.local.local/[TARGET].env.local.local; set +a
 ```
 
 or more specific:
 ```shell
-set -a; source integration_tests/.env/postgres.env; set +a
+set -a; source integration_tests/.env.local.local/postgres.env; set +a
 ```
 
 #### Setup Postgres (optional)

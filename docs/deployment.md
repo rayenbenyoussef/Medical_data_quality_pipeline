@@ -61,7 +61,7 @@ Copy-Item .env.input .env
 
 **Linux/Mac:**
 ```bash
-cp .env.input .env
+cp .env.local.local.input .env.local.local
 ```
 
 Required variables:

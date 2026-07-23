@@ -8,9 +8,9 @@ from pandas import read_csv
 import sys
 import os
 from dotenv import load_dotenv
-
-load_dotenv()
-PROJECT_ROOT = os.getenv("PROJECT_ROOT", "/opt/airflow")
+load_dotenv(".env")
+load_dotenv(".env.docker")
+PROJECT_ROOT = os.getenv("PROJECT_ROOT")
 
 if PROJECT_ROOT is None:
     raise ValueError("Airflow Variable 'PROJECT_ROOT' is not set. Go to Admin → Variables and add it.")

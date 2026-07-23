@@ -9,7 +9,9 @@ from config.Config import ConfigManager
 from load.load_to_raw import CSVRawLoader
 
 from config.logging_config import setup_logger
-
+from dotenv import load_dotenv
+load_dotenv(".env")
+load_dotenv(".env.local")
 
 logger = setup_logger()
 

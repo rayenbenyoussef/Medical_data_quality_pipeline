@@ -1,14 +1,12 @@
 from typing import Optional
-from dotenv import load_dotenv
 import os
-
 class ConfigManager:
-    def __init__(self):
-        load_dotenv()
+    def __init__(self) -> None:
+
         self.project_root = os.getenv('PROJECT_ROOT')
 
         if self.project_root is None:
-            raise ValueError("Variable .env 'PROJECT_ROOT' is not set..")
+            raise ValueError("Variable .env.local.local 'PROJECT_ROOT' is not set..")
         self.dbt_dir = f'{self.project_root}/dbt'
         self.data_input = f'{self.project_root}/data/input'
     @staticmethod

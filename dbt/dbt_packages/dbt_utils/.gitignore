@@ -12,7 +12,7 @@ __pycache__
 # Ignore all directories that start with 'env-' and can have any name after
 env*/
 
-# Do not ignore .env files in any directory and do not ignore .env directories
+# Do not ignore .env.local.local files in any directory and do not ignore .env.local.local directories
 !.env
 !*/.env/
 
