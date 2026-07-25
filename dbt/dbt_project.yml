@@ -13,8 +13,8 @@ models:
   medical_data_quality_pipeline:
     staging:
       +materialized: view
-      schema: "{{ env_var('STG_SCHEMA') }}"
+      +schema: "{{ env_var('STG_SCHEMA') }}"
     marts:
       +materialized: table
-      schema: "{{ env_var('MRT_SCHEMA') }}"
+      +schema: "{{ env_var('MRT_SCHEMA') }}"
 

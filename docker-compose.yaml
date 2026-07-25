@@ -58,8 +58,8 @@ x-airflow-common:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
     AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
-    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
-    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://${DB_USER}:${DB_PASSWORD}@postgres/${DB_NAME}
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql+psycopg2://${DB_USER}:${DB_PASSWORD}@postgres/${DB_NAME}
     AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
     AIRFLOW__CORE__FERNET_KEY: ${FERNET_KEY}
     AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
@@ -95,7 +95,18 @@ x-airflow-common:
     postgres:
       condition: service_healthy
 
+name: medical-data-quality-pipeline
 services:
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      - ${AIRFLOW_PROJ_DIR:-.}/monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+    restart: always
   postgres:
     image: postgres:16
     environment:
@@ -341,3 +352,4 @@ services:
 
 volumes:
   postgres-db-volume:
+  grafana-storage:
